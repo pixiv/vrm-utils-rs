@@ -1,0 +1,14 @@
+[package]
+edition.workspace = true
+license.workspace = true
+name = "vrm-spec-example"
+publish = false
+rust-version.workspace = true
+version = "0.0.0"
+
+[dependencies]
+gltf = {workspace = true, features = ["utils", "extensions"]}
+rustc-hash = {workspace = true}
+serde = {workspace = true}
+serde_json = {workspace = true}
+vrm-spec = {path = "../../crates/vrm-spec", features = ["gltf_index", "rustc_hash"]}

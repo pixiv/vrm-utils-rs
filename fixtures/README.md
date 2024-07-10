@@ -1,0 +1,2 @@
+- `VRM1_Constraint_Twist_Sample.vrm` from https://github.com/vrm-c/vrm-specification/tree/master/samples
+- `AvatarSample_A.vrm` from https://hub.vroid.com/en/characters/2843975675147313744/models/5644550979324015604
