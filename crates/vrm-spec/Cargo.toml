@@ -1,0 +1,25 @@
+[package]
+authors = ["pixiv"]
+description = "VRM data structures"
+documentation = "https://docs.rs/vrm-spec"
+edition.workspace = true
+license = "Apache-2.0"
+name = "vrm-spec"
+readme = "README.md"
+repository = "https://github.com/pixiv/vrm-spec"
+rust-version.workspace = true
+version = "0.0.1"
+
+[dependencies]
+gltf = {workspace = true, features = ["utils", "extensions"], optional = true}
+rustc-hash = {workspace = true, optional = true}
+serde = {workspace = true}
+serde_json = {workspace = true}
+
+[dev-dependencies]
+insta = {workspace = true}
+
+[features]
+default = ["rustc_hash", "gltf_index"]
+gltf_index = ["dep:gltf"]
+rustc_hash = ["dep:rustc-hash"]

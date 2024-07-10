@@ -1,0 +1,3523 @@
+---
+source: crates/vrm-spec/tests/test.rs
+expression: vrm
+---
+VRM0Schema {
+    blend_shape_master: Some(
+        VRMBlendShape {
+            blend_shape_groups: Some(
+                [
+                    VRMBlendShapeGroup {
+                        binds: Some(
+                            [
+                                VRMBlendShapeBind {
+                                    index: Some(
+                                        0,
+                                    ),
+                                    mesh: Some(
+                                        0,
+                                    ),
+                                    weight: Some(
+                                        100.0,
+                                    ),
+                                },
+                            ],
+                        ),
+                        is_binary: Some(
+                            false,
+                        ),
+                        material_values: Some(
+                            [],
+                        ),
+                        name: Some(
+                            "Neutral",
+                        ),
+                        preset_name: Some(
+                            Neutral,
+                        ),
+                    },
+                    VRMBlendShapeGroup {
+                        binds: Some(
+                            [
+                                VRMBlendShapeBind {
+                                    index: Some(
+                                        39,
+                                    ),
+                                    mesh: Some(
+                                        0,
+                                    ),
+                                    weight: Some(
+                                        100.0,
+                                    ),
+                                },
+                            ],
+                        ),
+                        is_binary: Some(
+                            false,
+                        ),
+                        material_values: Some(
+                            [],
+                        ),
+                        name: Some(
+                            "A",
+                        ),
+                        preset_name: Some(
+                            A,
+                        ),
+                    },
+                    VRMBlendShapeGroup {
+                        binds: Some(
+                            [
+                                VRMBlendShapeBind {
+                                    index: Some(
+                                        40,
+                                    ),
+                                    mesh: Some(
+                                        0,
+                                    ),
+                                    weight: Some(
+                                        100.0,
+                                    ),
+                                },
+                            ],
+                        ),
+                        is_binary: Some(
+                            false,
+                        ),
+                        material_values: Some(
+                            [],
+                        ),
+                        name: Some(
+                            "I",
+                        ),
+                        preset_name: Some(
+                            I,
+                        ),
+                    },
+                    VRMBlendShapeGroup {
+                        binds: Some(
+                            [
+                                VRMBlendShapeBind {
+                                    index: Some(
+                                        41,
+                                    ),
+                                    mesh: Some(
+                                        0,
+                                    ),
+                                    weight: Some(
+                                        100.0,
+                                    ),
+                                },
+                            ],
+                        ),
+                        is_binary: Some(
+                            false,
+                        ),
+                        material_values: Some(
+                            [],
+                        ),
+                        name: Some(
+                            "U",
+                        ),
+                        preset_name: Some(
+                            U,
+                        ),
+                    },
+                    VRMBlendShapeGroup {
+                        binds: Some(
+                            [
+                                VRMBlendShapeBind {
+                                    index: Some(
+                                        42,
+                                    ),
+                                    mesh: Some(
+                                        0,
+                                    ),
+                                    weight: Some(
+                                        100.0,
+                                    ),
+                                },
+                            ],
+                        ),
+                        is_binary: Some(
+                            false,
+                        ),
+                        material_values: Some(
+                            [],
+                        ),
+                        name: Some(
+                            "E",
+                        ),
+                        preset_name: Some(
+                            E,
+                        ),
+                    },
+                    VRMBlendShapeGroup {
+                        binds: Some(
+                            [
+                                VRMBlendShapeBind {
+                                    index: Some(
+                                        43,
+                                    ),
+                                    mesh: Some(
+                                        0,
+                                    ),
+                                    weight: Some(
+                                        100.0,
+                                    ),
+                                },
+                            ],
+                        ),
+                        is_binary: Some(
+                            false,
+                        ),
+                        material_values: Some(
+                            [],
+                        ),
+                        name: Some(
+                            "O",
+                        ),
+                        preset_name: Some(
+                            O,
+                        ),
+                    },
+                    VRMBlendShapeGroup {
+                        binds: Some(
+                            [
+                                VRMBlendShapeBind {
+                                    index: Some(
+                                        13,
+                                    ),
+                                    mesh: Some(
+                                        0,
+                                    ),
+                                    weight: Some(
+                                        100.0,
+                                    ),
+                                },
+                            ],
+                        ),
+                        is_binary: Some(
+                            false,
+                        ),
+                        material_values: Some(
+                            [],
+                        ),
+                        name: Some(
+                            "Blink",
+                        ),
+                        preset_name: Some(
+                            Blink,
+                        ),
+                    },
+                    VRMBlendShapeGroup {
+                        binds: Some(
+                            [
+                                VRMBlendShapeBind {
+                                    index: Some(
+                                        15,
+                                    ),
+                                    mesh: Some(
+                                        0,
+                                    ),
+                                    weight: Some(
+                                        100.0,
+                                    ),
+                                },
+                            ],
+                        ),
+                        is_binary: Some(
+                            false,
+                        ),
+                        material_values: Some(
+                            [],
+                        ),
+                        name: Some(
+                            "Blink_L",
+                        ),
+                        preset_name: Some(
+                            BlinkL,
+                        ),
+                    },
+                    VRMBlendShapeGroup {
+                        binds: Some(
+                            [
+                                VRMBlendShapeBind {
+                                    index: Some(
+                                        14,
+                                    ),
+                                    mesh: Some(
+                                        0,
+                                    ),
+                                    weight: Some(
+                                        100.0,
+                                    ),
+                                },
+                            ],
+                        ),
+                        is_binary: Some(
+                            false,
+                        ),
+                        material_values: Some(
+                            [],
+                        ),
+                        name: Some(
+                            "Blink_R",
+                        ),
+                        preset_name: Some(
+                            BlinkR,
+                        ),
+                    },
+                    VRMBlendShapeGroup {
+                        binds: Some(
+                            [
+                                VRMBlendShapeBind {
+                                    index: Some(
+                                        1,
+                                    ),
+                                    mesh: Some(
+                                        0,
+                                    ),
+                                    weight: Some(
+                                        100.0,
+                                    ),
+                                },
+                            ],
+                        ),
+                        is_binary: Some(
+                            false,
+                        ),
+                        material_values: Some(
+                            [],
+                        ),
+                        name: Some(
+                            "Angry",
+                        ),
+                        preset_name: Some(
+                            Angry,
+                        ),
+                    },
+                    VRMBlendShapeGroup {
+                        binds: Some(
+                            [
+                                VRMBlendShapeBind {
+                                    index: Some(
+                                        2,
+                                    ),
+                                    mesh: Some(
+                                        0,
+                                    ),
+                                    weight: Some(
+                                        100.0,
+                                    ),
+                                },
+                            ],
+                        ),
+                        is_binary: Some(
+                            false,
+                        ),
+                        material_values: Some(
+                            [],
+                        ),
+                        name: Some(
+                            "Fun",
+                        ),
+                        preset_name: Some(
+                            Fun,
+                        ),
+                    },
+                    VRMBlendShapeGroup {
+                        binds: Some(
+                            [
+                                VRMBlendShapeBind {
+                                    index: Some(
+                                        3,
+                                    ),
+                                    mesh: Some(
+                                        0,
+                                    ),
+                                    weight: Some(
+                                        100.0,
+                                    ),
+                                },
+                            ],
+                        ),
+                        is_binary: Some(
+                            false,
+                        ),
+                        material_values: Some(
+                            [],
+                        ),
+                        name: Some(
+                            "Joy",
+                        ),
+                        preset_name: Some(
+                            Joy,
+                        ),
+                    },
+                    VRMBlendShapeGroup {
+                        binds: Some(
+                            [
+                                VRMBlendShapeBind {
+                                    index: Some(
+                                        4,
+                                    ),
+                                    mesh: Some(
+                                        0,
+                                    ),
+                                    weight: Some(
+                                        100.0,
+                                    ),
+                                },
+                            ],
+                        ),
+                        is_binary: Some(
+                            false,
+                        ),
+                        material_values: Some(
+                            [],
+                        ),
+                        name: Some(
+                            "Sorrow",
+                        ),
+                        preset_name: Some(
+                            Sorrow,
+                        ),
+                    },
+                    VRMBlendShapeGroup {
+                        binds: Some(
+                            [
+                                VRMBlendShapeBind {
+                                    index: Some(
+                                        5,
+                                    ),
+                                    mesh: Some(
+                                        0,
+                                    ),
+                                    weight: Some(
+                                        100.0,
+                                    ),
+                                },
+                            ],
+                        ),
+                        is_binary: Some(
+                            false,
+                        ),
+                        material_values: Some(
+                            [],
+                        ),
+                        name: Some(
+                            "Surprised",
+                        ),
+                        preset_name: Some(
+                            Unknown,
+                        ),
+                    },
+                ],
+            ),
+        },
+    ),
+    exporter_version: Some(
+        "VRoid Studio-1.26.0",
+    ),
+    first_person: Some(
+        VRMFirstPerson {
+            first_person_bone: Some(
+                18,
+            ),
+            first_person_bone_offset: Some(
+                OptionalVector3 {
+                    x: Some(
+                        0.0,
+                    ),
+                    y: Some(
+                        0.06,
+                    ),
+                    z: Some(
+                        0.0,
+                    ),
+                },
+            ),
+            look_at_horizontal_inner: Some(
+                VRMFirstPersonDegreeMap {
+                    curve: Some(
+                        [
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0,
+                            1.0,
+                            1.0,
+                            1.0,
+                            0.0,
+                        ],
+                    ),
+                    x_range: Some(
+                        90.0,
+                    ),
+                    y_range: Some(
+                        8.0,
+                    ),
+                },
+            ),
+            look_at_horizontal_outer: Some(
+                VRMFirstPersonDegreeMap {
+                    curve: Some(
+                        [
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0,
+                            1.0,
+                            1.0,
+                            1.0,
+                            0.0,
+                        ],
+                    ),
+                    x_range: Some(
+                        90.0,
+                    ),
+                    y_range: Some(
+                        12.0,
+                    ),
+                },
+            ),
+            look_at_type_name: Some(
+                Bone,
+            ),
+            look_at_vertical_down: Some(
+                VRMFirstPersonDegreeMap {
+                    curve: Some(
+                        [
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0,
+                            1.0,
+                            1.0,
+                            1.0,
+                            0.0,
+                        ],
+                    ),
+                    x_range: Some(
+                        90.0,
+                    ),
+                    y_range: Some(
+                        10.0,
+                    ),
+                },
+            ),
+            look_at_vertical_up: Some(
+                VRMFirstPersonDegreeMap {
+                    curve: Some(
+                        [
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0,
+                            1.0,
+                            1.0,
+                            1.0,
+                            0.0,
+                        ],
+                    ),
+                    x_range: Some(
+                        90.0,
+                    ),
+                    y_range: Some(
+                        10.0,
+                    ),
+                },
+            ),
+            mesh_annotations: Some(
+                [],
+            ),
+        },
+    ),
+    humanoid: Some(
+        VRMHumanoid {
+            arm_stretch: Some(
+                0.05,
+            ),
+            feet_spacing: Some(
+                0.0,
+            ),
+            has_translation_do_f: Some(
+                false,
+            ),
+            human_bones: Some(
+                [
+                    VRMHumanoidBone {
+                        axis_length: None,
+                        bone: Some(
+                            Hips,
+                        ),
+                        center: None,
+                        max: None,
+                        min: None,
+                        node: Some(
+                            1,
+                        ),
+                        use_default_values: Some(
+                            true,
+                        ),
+                    },
+                    VRMHumanoidBone {
+                        axis_length: None,
+                        bone: Some(
+                            LeftUpperLeg,
+                        ),
+                        center: None,
+                        max: None,
+                        min: None,
+                        node: Some(
+                            83,
+                        ),
+                        use_default_values: Some(
+                            true,
+                        ),
+                    },
+                    VRMHumanoidBone {
+                        axis_length: None,
+                        bone: Some(
+                            RightUpperLeg,
+                        ),
+                        center: None,
+                        max: None,
+                        min: None,
+                        node: Some(
+                            87,
+                        ),
+                        use_default_values: Some(
+                            true,
+                        ),
+                    },
+                    VRMHumanoidBone {
+                        axis_length: None,
+                        bone: Some(
+                            LeftLowerLeg,
+                        ),
+                        center: None,
+                        max: None,
+                        min: None,
+                        node: Some(
+                            84,
+                        ),
+                        use_default_values: Some(
+                            true,
+                        ),
+                    },
+                    VRMHumanoidBone {
+                        axis_length: None,
+                        bone: Some(
+                            RightLowerLeg,
+                        ),
+                        center: None,
+                        max: None,
+                        min: None,
+                        node: Some(
+                            88,
+                        ),
+                        use_default_values: Some(
+                            true,
+                        ),
+                    },
+                    VRMHumanoidBone {
+                        axis_length: None,
+                        bone: Some(
+                            LeftFoot,
+                        ),
+                        center: None,
+                        max: None,
+                        min: None,
+                        node: Some(
+                            85,
+                        ),
+                        use_default_values: Some(
+                            true,
+                        ),
+                    },
+                    VRMHumanoidBone {
+                        axis_length: None,
+                        bone: Some(
+                            RightFoot,
+                        ),
+                        center: None,
+                        max: None,
+                        min: None,
+                        node: Some(
+                            89,
+                        ),
+                        use_default_values: Some(
+                            true,
+                        ),
+                    },
+                    VRMHumanoidBone {
+                        axis_length: None,
+                        bone: Some(
+                            Spine,
+                        ),
+                        center: None,
+                        max: None,
+                        min: None,
+                        node: Some(
+                            2,
+                        ),
+                        use_default_values: Some(
+                            true,
+                        ),
+                    },
+                    VRMHumanoidBone {
+                        axis_length: None,
+                        bone: Some(
+                            Chest,
+                        ),
+                        center: None,
+                        max: None,
+                        min: None,
+                        node: Some(
+                            3,
+                        ),
+                        use_default_values: Some(
+                            true,
+                        ),
+                    },
+                    VRMHumanoidBone {
+                        axis_length: None,
+                        bone: Some(
+                            Neck,
+                        ),
+                        center: None,
+                        max: None,
+                        min: None,
+                        node: Some(
+                            17,
+                        ),
+                        use_default_values: Some(
+                            true,
+                        ),
+                    },
+                    VRMHumanoidBone {
+                        axis_length: None,
+                        bone: Some(
+                            Head,
+                        ),
+                        center: None,
+                        max: None,
+                        min: None,
+                        node: Some(
+                            18,
+                        ),
+                        use_default_values: Some(
+                            true,
+                        ),
+                    },
+                    VRMHumanoidBone {
+                        axis_length: None,
+                        bone: Some(
+                            LeftShoulder,
+                        ),
+                        center: None,
+                        max: None,
+                        min: None,
+                        node: Some(
+                            45,
+                        ),
+                        use_default_values: Some(
+                            true,
+                        ),
+                    },
+                    VRMHumanoidBone {
+                        axis_length: None,
+                        bone: Some(
+                            RightShoulder,
+                        ),
+                        center: None,
+                        max: None,
+                        min: None,
+                        node: Some(
+                            64,
+                        ),
+                        use_default_values: Some(
+                            true,
+                        ),
+                    },
+                    VRMHumanoidBone {
+                        axis_length: None,
+                        bone: Some(
+                            LeftUpperArm,
+                        ),
+                        center: None,
+                        max: None,
+                        min: None,
+                        node: Some(
+                            46,
+                        ),
+                        use_default_values: Some(
+                            true,
+                        ),
+                    },
+                    VRMHumanoidBone {
+                        axis_length: None,
+                        bone: Some(
+                            RightUpperArm,
+                        ),
+                        center: None,
+                        max: None,
+                        min: None,
+                        node: Some(
+                            65,
+                        ),
+                        use_default_values: Some(
+                            true,
+                        ),
+                    },
+                    VRMHumanoidBone {
+                        axis_length: None,
+                        bone: Some(
+                            LeftLowerArm,
+                        ),
+                        center: None,
+                        max: None,
+                        min: None,
+                        node: Some(
+                            47,
+                        ),
+                        use_default_values: Some(
+                            true,
+                        ),
+                    },
+                    VRMHumanoidBone {
+                        axis_length: None,
+                        bone: Some(
+                            RightLowerArm,
+                        ),
+                        center: None,
+                        max: None,
+                        min: None,
+                        node: Some(
+                            66,
+                        ),
+                        use_default_values: Some(
+                            true,
+                        ),
+                    },
+                    VRMHumanoidBone {
+                        axis_length: None,
+                        bone: Some(
+                            LeftHand,
+                        ),
+                        center: None,
+                        max: None,
+                        min: None,
+                        node: Some(
+                            48,
+                        ),
+                        use_default_values: Some(
+                            true,
+                        ),
+                    },
+                    VRMHumanoidBone {
+                        axis_length: None,
+                        bone: Some(
+                            RightHand,
+                        ),
+                        center: None,
+                        max: None,
+                        min: None,
+                        node: Some(
+                            67,
+                        ),
+                        use_default_values: Some(
+                            true,
+                        ),
+                    },
+                    VRMHumanoidBone {
+                        axis_length: None,
+                        bone: Some(
+                            LeftToes,
+                        ),
+                        center: None,
+                        max: None,
+                        min: None,
+                        node: Some(
+                            86,
+                        ),
+                        use_default_values: Some(
+                            true,
+                        ),
+                    },
+                    VRMHumanoidBone {
+                        axis_length: None,
+                        bone: Some(
+                            RightToes,
+                        ),
+                        center: None,
+                        max: None,
+                        min: None,
+                        node: Some(
+                            90,
+                        ),
+                        use_default_values: Some(
+                            true,
+                        ),
+                    },
+                    VRMHumanoidBone {
+                        axis_length: None,
+                        bone: Some(
+                            LeftEye,
+                        ),
+                        center: None,
+                        max: None,
+                        min: None,
+                        node: Some(
+                            19,
+                        ),
+                        use_default_values: Some(
+                            true,
+                        ),
+                    },
+                    VRMHumanoidBone {
+                        axis_length: None,
+                        bone: Some(
+                            RightEye,
+                        ),
+                        center: None,
+                        max: None,
+                        min: None,
+                        node: Some(
+                            20,
+                        ),
+                        use_default_values: Some(
+                            true,
+                        ),
+                    },
+                    VRMHumanoidBone {
+                        axis_length: None,
+                        bone: Some(
+                            LeftThumbProximal,
+                        ),
+                        center: None,
+                        max: None,
+                        min: None,
+                        node: Some(
+                            61,
+                        ),
+                        use_default_values: Some(
+                            true,
+                        ),
+                    },
+                    VRMHumanoidBone {
+                        axis_length: None,
+                        bone: Some(
+                            LeftThumbIntermediate,
+                        ),
+                        center: None,
+                        max: None,
+                        min: None,
+                        node: Some(
+                            62,
+                        ),
+                        use_default_values: Some(
+                            true,
+                        ),
+                    },
+                    VRMHumanoidBone {
+                        axis_length: None,
+                        bone: Some(
+                            LeftThumbDistal,
+                        ),
+                        center: None,
+                        max: None,
+                        min: None,
+                        node: Some(
+                            63,
+                        ),
+                        use_default_values: Some(
+                            true,
+                        ),
+                    },
+                    VRMHumanoidBone {
+                        axis_length: None,
+                        bone: Some(
+                            LeftIndexProximal,
+                        ),
+                        center: None,
+                        max: None,
+                        min: None,
+                        node: Some(
+                            49,
+                        ),
+                        use_default_values: Some(
+                            true,
+                        ),
+                    },
+                    VRMHumanoidBone {
+                        axis_length: None,
+                        bone: Some(
+                            LeftIndexIntermediate,
+                        ),
+                        center: None,
+                        max: None,
+                        min: None,
+                        node: Some(
+                            50,
+                        ),
+                        use_default_values: Some(
+                            true,
+                        ),
+                    },
+                    VRMHumanoidBone {
+                        axis_length: None,
+                        bone: Some(
+                            LeftIndexDistal,
+                        ),
+                        center: None,
+                        max: None,
+                        min: None,
+                        node: Some(
+                            51,
+                        ),
+                        use_default_values: Some(
+                            true,
+                        ),
+                    },
+                    VRMHumanoidBone {
+                        axis_length: None,
+                        bone: Some(
+                            LeftMiddleProximal,
+                        ),
+                        center: None,
+                        max: None,
+                        min: None,
+                        node: Some(
+                            55,
+                        ),
+                        use_default_values: Some(
+                            true,
+                        ),
+                    },
+                    VRMHumanoidBone {
+                        axis_length: None,
+                        bone: Some(
+                            LeftMiddleIntermediate,
+                        ),
+                        center: None,
+                        max: None,
+                        min: None,
+                        node: Some(
+                            56,
+                        ),
+                        use_default_values: Some(
+                            true,
+                        ),
+                    },
+                    VRMHumanoidBone {
+                        axis_length: None,
+                        bone: Some(
+                            LeftMiddleDistal,
+                        ),
+                        center: None,
+                        max: None,
+                        min: None,
+                        node: Some(
+                            57,
+                        ),
+                        use_default_values: Some(
+                            true,
+                        ),
+                    },
+                    VRMHumanoidBone {
+                        axis_length: None,
+                        bone: Some(
+                            LeftRingProximal,
+                        ),
+                        center: None,
+                        max: None,
+                        min: None,
+                        node: Some(
+                            58,
+                        ),
+                        use_default_values: Some(
+                            true,
+                        ),
+                    },
+                    VRMHumanoidBone {
+                        axis_length: None,
+                        bone: Some(
+                            LeftRingIntermediate,
+                        ),
+                        center: None,
+                        max: None,
+                        min: None,
+                        node: Some(
+                            59,
+                        ),
+                        use_default_values: Some(
+                            true,
+                        ),
+                    },
+                    VRMHumanoidBone {
+                        axis_length: None,
+                        bone: Some(
+                            LeftRingDistal,
+                        ),
+                        center: None,
+                        max: None,
+                        min: None,
+                        node: Some(
+                            60,
+                        ),
+                        use_default_values: Some(
+                            true,
+                        ),
+                    },
+                    VRMHumanoidBone {
+                        axis_length: None,
+                        bone: Some(
+                            LeftLittleProximal,
+                        ),
+                        center: None,
+                        max: None,
+                        min: None,
+                        node: Some(
+                            52,
+                        ),
+                        use_default_values: Some(
+                            true,
+                        ),
+                    },
+                    VRMHumanoidBone {
+                        axis_length: None,
+                        bone: Some(
+                            LeftLittleIntermediate,
+                        ),
+                        center: None,
+                        max: None,
+                        min: None,
+                        node: Some(
+                            53,
+                        ),
+                        use_default_values: Some(
+                            true,
+                        ),
+                    },
+                    VRMHumanoidBone {
+                        axis_length: None,
+                        bone: Some(
+                            LeftLittleDistal,
+                        ),
+                        center: None,
+                        max: None,
+                        min: None,
+                        node: Some(
+                            54,
+                        ),
+                        use_default_values: Some(
+                            true,
+                        ),
+                    },
+                    VRMHumanoidBone {
+                        axis_length: None,
+                        bone: Some(
+                            RightThumbProximal,
+                        ),
+                        center: None,
+                        max: None,
+                        min: None,
+                        node: Some(
+                            80,
+                        ),
+                        use_default_values: Some(
+                            true,
+                        ),
+                    },
+                    VRMHumanoidBone {
+                        axis_length: None,
+                        bone: Some(
+                            RightThumbIntermediate,
+                        ),
+                        center: None,
+                        max: None,
+                        min: None,
+                        node: Some(
+                            81,
+                        ),
+                        use_default_values: Some(
+                            true,
+                        ),
+                    },
+                    VRMHumanoidBone {
+                        axis_length: None,
+                        bone: Some(
+                            RightThumbDistal,
+                        ),
+                        center: None,
+                        max: None,
+                        min: None,
+                        node: Some(
+                            82,
+                        ),
+                        use_default_values: Some(
+                            true,
+                        ),
+                    },
+                    VRMHumanoidBone {
+                        axis_length: None,
+                        bone: Some(
+                            RightIndexProximal,
+                        ),
+                        center: None,
+                        max: None,
+                        min: None,
+                        node: Some(
+                            68,
+                        ),
+                        use_default_values: Some(
+                            true,
+                        ),
+                    },
+                    VRMHumanoidBone {
+                        axis_length: None,
+                        bone: Some(
+                            RightIndexIntermediate,
+                        ),
+                        center: None,
+                        max: None,
+                        min: None,
+                        node: Some(
+                            69,
+                        ),
+                        use_default_values: Some(
+                            true,
+                        ),
+                    },
+                    VRMHumanoidBone {
+                        axis_length: None,
+                        bone: Some(
+                            RightIndexDistal,
+                        ),
+                        center: None,
+                        max: None,
+                        min: None,
+                        node: Some(
+                            70,
+                        ),
+                        use_default_values: Some(
+                            true,
+                        ),
+                    },
+                    VRMHumanoidBone {
+                        axis_length: None,
+                        bone: Some(
+                            RightMiddleProximal,
+                        ),
+                        center: None,
+                        max: None,
+                        min: None,
+                        node: Some(
+                            74,
+                        ),
+                        use_default_values: Some(
+                            true,
+                        ),
+                    },
+                    VRMHumanoidBone {
+                        axis_length: None,
+                        bone: Some(
+                            RightMiddleIntermediate,
+                        ),
+                        center: None,
+                        max: None,
+                        min: None,
+                        node: Some(
+                            75,
+                        ),
+                        use_default_values: Some(
+                            true,
+                        ),
+                    },
+                    VRMHumanoidBone {
+                        axis_length: None,
+                        bone: Some(
+                            RightMiddleDistal,
+                        ),
+                        center: None,
+                        max: None,
+                        min: None,
+                        node: Some(
+                            76,
+                        ),
+                        use_default_values: Some(
+                            true,
+                        ),
+                    },
+                    VRMHumanoidBone {
+                        axis_length: None,
+                        bone: Some(
+                            RightRingProximal,
+                        ),
+                        center: None,
+                        max: None,
+                        min: None,
+                        node: Some(
+                            77,
+                        ),
+                        use_default_values: Some(
+                            true,
+                        ),
+                    },
+                    VRMHumanoidBone {
+                        axis_length: None,
+                        bone: Some(
+                            RightRingIntermediate,
+                        ),
+                        center: None,
+                        max: None,
+                        min: None,
+                        node: Some(
+                            78,
+                        ),
+                        use_default_values: Some(
+                            true,
+                        ),
+                    },
+                    VRMHumanoidBone {
+                        axis_length: None,
+                        bone: Some(
+                            RightRingDistal,
+                        ),
+                        center: None,
+                        max: None,
+                        min: None,
+                        node: Some(
+                            79,
+                        ),
+                        use_default_values: Some(
+                            true,
+                        ),
+                    },
+                    VRMHumanoidBone {
+                        axis_length: None,
+                        bone: Some(
+                            RightLittleProximal,
+                        ),
+                        center: None,
+                        max: None,
+                        min: None,
+                        node: Some(
+                            71,
+                        ),
+                        use_default_values: Some(
+                            true,
+                        ),
+                    },
+                    VRMHumanoidBone {
+                        axis_length: None,
+                        bone: Some(
+                            RightLittleIntermediate,
+                        ),
+                        center: None,
+                        max: None,
+                        min: None,
+                        node: Some(
+                            72,
+                        ),
+                        use_default_values: Some(
+                            true,
+                        ),
+                    },
+                    VRMHumanoidBone {
+                        axis_length: None,
+                        bone: Some(
+                            RightLittleDistal,
+                        ),
+                        center: None,
+                        max: None,
+                        min: None,
+                        node: Some(
+                            73,
+                        ),
+                        use_default_values: Some(
+                            true,
+                        ),
+                    },
+                    VRMHumanoidBone {
+                        axis_length: None,
+                        bone: Some(
+                            UpperChest,
+                        ),
+                        center: None,
+                        max: None,
+                        min: None,
+                        node: Some(
+                            4,
+                        ),
+                        use_default_values: Some(
+                            true,
+                        ),
+                    },
+                ],
+            ),
+            leg_stretch: Some(
+                0.05,
+            ),
+            lower_arm_twist: Some(
+                0.5,
+            ),
+            lower_leg_twist: Some(
+                0.5,
+            ),
+            upper_arm_twist: Some(
+                0.5,
+            ),
+            upper_leg_twist: Some(
+                0.5,
+            ),
+        },
+    ),
+    material_properties: Some(
+        [
+            VRMMaterial {
+                float_properties: Some(
+                    {
+                        "_OutlineLightingMix": 1.0,
+                        "_OutlineScaledMaxDistance": 1.0,
+                        "_ShadingGradeRate": 1.0,
+                        "_BumpScale": 1.0,
+                        "_OutlineWidth": 0.075,
+                        "_SrcBlend": 1.0,
+                        "_CullMode": 2.0,
+                        "_IndirectLightIntensity": 0.1,
+                        "_ShadeShift": -0.9,
+                        "_UvAnimRotation": 0.0,
+                        "_BlendMode": 1.0,
+                        "_RimFresnelPower": 7.999984,
+                        "_ReceiveShadowRate": 1.0,
+                        "_UvAnimScrollX": 0.0,
+                        "_OutlineWidthMode": 1.0,
+                        "_UvAnimScrollY": 0.0,
+                        "_MToonVersion": 34.0,
+                        "_DstBlend": 0.0,
+                        "_RimLift": 0.1,
+                        "_ZWrite": 1.0,
+                        "_ShadeToony": 0.0,
+                        "_Cutoff": 0.5,
+                        "_DebugMode": 0.0,
+                        "_OutlineCullMode": 1.0,
+                        "_OutlineColorMode": 0.0,
+                        "_RimLightingMix": 0.0,
+                        "_LightColorAttenuation": 0.0,
+                    },
+                ),
+                keyword_map: Some(
+                    {
+                        "MTOON_OUTLINE_WIDTH_WORLD": true,
+                        "_ALPHATEST_ON": true,
+                        "MTOON_OUTLINE_COLOR_FIXED": true,
+                        "_NORMALMAP": true,
+                    },
+                ),
+                name: Some(
+                    "N00_000_00_FaceMouth_00_FACE (Instance)",
+                ),
+                render_queue: Some(
+                    2450,
+                ),
+                shader: Some(
+                    "VRM/MToon",
+                ),
+                tag_map: Some(
+                    {
+                        "RenderType": "TransparentCutout",
+                    },
+                ),
+                texture_properties: Some(
+                    {
+                        "_BumpMap": 2,
+                        "_OutlineWidthTexture": 9,
+                        "_EmissionMap": 1,
+                        "_MainTex": 0,
+                        "_ShadeTexture": 7,
+                        "_SphereAdd": 8,
+                    },
+                ),
+                vector_properties: Some(
+                    {
+                        "_ShadeTexture": [
+                            0.0,
+                            0.0,
+                            1.0,
+                            1.0,
+                        ],
+                        "_RimTexture": [
+                            0.0,
+                            0.0,
+                            1.0,
+                            1.0,
+                        ],
+                        "_EmissionColor": [
+                            1.0,
+                            1.0,
+                            1.0,
+                            1.0,
+                        ],
+                        "_OutlineColor": [
+                            0.2745098,
+                            0.0901960656,
+                            0.125490159,
+                            1.0,
+                        ],
+                        "_SphereAdd": [
+                            0.0,
+                            0.0,
+                            1.0,
+                            1.0,
+                        ],
+                        "_MainTex": [
+                            0.0,
+                            0.0,
+                            1.0,
+                            1.0,
+                        ],
+                        "_Color": [
+                            1.0,
+                            1.0,
+                            1.0,
+                            1.0,
+                        ],
+                        "_BumpMap": [
+                            0.0,
+                            0.0,
+                            1.0,
+                            1.0,
+                        ],
+                        "_OutlineWidthTexture": [
+                            0.0,
+                            0.0,
+                            1.0,
+                            1.0,
+                        ],
+                        "_EmissionMap": [
+                            0.0,
+                            0.0,
+                            1.0,
+                            1.0,
+                        ],
+                        "_ReceiveShadowTexture": [
+                            0.0,
+                            0.0,
+                            1.0,
+                            1.0,
+                        ],
+                        "_ShadeColor": [
+                            1.0,
+                            1.0,
+                            1.0,
+                            1.0,
+                        ],
+                        "_UvAnimMaskTexture": [
+                            0.0,
+                            0.0,
+                            1.0,
+                            1.0,
+                        ],
+                        "_ShadingGradeTexture": [
+                            0.0,
+                            0.0,
+                            1.0,
+                            1.0,
+                        ],
+                        "_RimColor": [
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0,
+                        ],
+                    },
+                ),
+            },
+            VRMMaterial {
+                float_properties: Some(
+                    {
+                        "_OutlineLightingMix": 1.0,
+                        "_OutlineScaledMaxDistance": 1.0,
+                        "_ShadingGradeRate": 1.0,
+                        "_BumpScale": 1.0,
+                        "_OutlineWidth": 0.0,
+                        "_SrcBlend": 5.0,
+                        "_CullMode": 2.0,
+                        "_IndirectLightIntensity": 0.1,
+                        "_ShadeShift": -0.9,
+                        "_UvAnimRotation": 0.0,
+                        "_BlendMode": 2.0,
+                        "_RimFresnelPower": 7.999984,
+                        "_ReceiveShadowRate": 1.0,
+                        "_UvAnimScrollX": 0.0,
+                        "_OutlineWidthMode": 0.0,
+                        "_UvAnimScrollY": 0.0,
+                        "_MToonVersion": 34.0,
+                        "_DstBlend": 10.0,
+                        "_RimLift": 0.1,
+                        "_ZWrite": 0.0,
+                        "_ShadeToony": 0.0,
+                        "_Cutoff": 0.5,
+                        "_DebugMode": 0.0,
+                        "_OutlineCullMode": 1.0,
+                        "_OutlineColorMode": 0.0,
+                        "_RimLightingMix": 0.0,
+                        "_LightColorAttenuation": 0.0,
+                    },
+                ),
+                keyword_map: Some(
+                    {
+                        "_NORMALMAP": true,
+                        "_ALPHABLEND_ON": true,
+                    },
+                ),
+                name: Some(
+                    "N00_000_00_EyeIris_00_EYE (Instance)",
+                ),
+                render_queue: Some(
+                    3000,
+                ),
+                shader: Some(
+                    "VRM/MToon",
+                ),
+                tag_map: Some(
+                    {
+                        "RenderType": "Transparent",
+                    },
+                ),
+                texture_properties: Some(
+                    {
+                        "_BumpMap": 2,
+                        "_OutlineWidthTexture": 9,
+                        "_EmissionMap": 1,
+                        "_MainTex": 0,
+                        "_ShadeTexture": 7,
+                        "_SphereAdd": 8,
+                    },
+                ),
+                vector_properties: Some(
+                    {
+                        "_ShadeTexture": [
+                            0.0,
+                            0.0,
+                            1.0,
+                            1.0,
+                        ],
+                        "_RimTexture": [
+                            0.0,
+                            0.0,
+                            1.0,
+                            1.0,
+                        ],
+                        "_EmissionColor": [
+                            1.0,
+                            1.0,
+                            1.0,
+                            1.0,
+                        ],
+                        "_OutlineColor": [
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                        ],
+                        "_SphereAdd": [
+                            0.0,
+                            0.0,
+                            1.0,
+                            1.0,
+                        ],
+                        "_MainTex": [
+                            0.0,
+                            0.0,
+                            1.0,
+                            1.0,
+                        ],
+                        "_Color": [
+                            1.0,
+                            1.0,
+                            1.0,
+                            1.0,
+                        ],
+                        "_BumpMap": [
+                            0.0,
+                            0.0,
+                            1.0,
+                            1.0,
+                        ],
+                        "_OutlineWidthTexture": [
+                            0.0,
+                            0.0,
+                            1.0,
+                            1.0,
+                        ],
+                        "_EmissionMap": [
+                            0.0,
+                            0.0,
+                            1.0,
+                            1.0,
+                        ],
+                        "_ReceiveShadowTexture": [
+                            0.0,
+                            0.0,
+                            1.0,
+                            1.0,
+                        ],
+                        "_ShadeColor": [
+                            1.0,
+                            1.0,
+                            1.0,
+                            1.0,
+                        ],
+                        "_UvAnimMaskTexture": [
+                            0.0,
+                            0.0,
+                            1.0,
+                            1.0,
+                        ],
+                        "_ShadingGradeTexture": [
+                            0.0,
+                            0.0,
+                            1.0,
+                            1.0,
+                        ],
+                        "_RimColor": [
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0,
+                        ],
+                    },
+                ),
+            },
+            VRMMaterial {
+                float_properties: Some(
+                    {
+                        "_OutlineLightingMix": 1.0,
+                        "_OutlineScaledMaxDistance": 1.0,
+                        "_ShadingGradeRate": 1.0,
+                        "_BumpScale": 1.0,
+                        "_OutlineWidth": 0.0,
+                        "_SrcBlend": 5.0,
+                        "_CullMode": 0.0,
+                        "_IndirectLightIntensity": 0.1,
+                        "_ShadeShift": -0.9,
+                        "_UvAnimRotation": 0.0,
+                        "_BlendMode": 2.0,
+                        "_RimFresnelPower": 7.999984,
+                        "_ReceiveShadowRate": 1.0,
+                        "_UvAnimScrollX": 0.0,
+                        "_OutlineWidthMode": 0.0,
+                        "_UvAnimScrollY": 0.0,
+                        "_MToonVersion": 34.0,
+                        "_DstBlend": 10.0,
+                        "_RimLift": 0.1,
+                        "_ZWrite": 0.0,
+                        "_ShadeToony": 0.0,
+                        "_Cutoff": 0.5,
+                        "_DebugMode": 0.0,
+                        "_OutlineCullMode": 1.0,
+                        "_OutlineColorMode": 0.0,
+                        "_RimLightingMix": 0.0,
+                        "_LightColorAttenuation": 0.0,
+                    },
+                ),
+                keyword_map: Some(
+                    {
+                        "_NORMALMAP": true,
+                        "_ALPHABLEND_ON": true,
+                    },
+                ),
+                name: Some(
+                    "N00_000_00_EyeHighlight_00_EYE (Instance)",
+                ),
+                render_queue: Some(
+                    3500,
+                ),
+                shader: Some(
+                    "VRM/MToon",
+                ),
+                tag_map: Some(
+                    {
+                        "RenderType": "Transparent",
+                    },
+                ),
+                texture_properties: Some(
+                    {
+                        "_BumpMap": 2,
+                        "_OutlineWidthTexture": 9,
+                        "_EmissionMap": 1,
+                        "_MainTex": 0,
+                        "_ShadeTexture": 7,
+                        "_SphereAdd": 8,
+                    },
+                ),
+                vector_properties: Some(
+                    {
+                        "_ShadeTexture": [
+                            0.0,
+                            0.0,
+                            1.0,
+                            1.0,
+                        ],
+                        "_RimTexture": [
+                            0.0,
+                            0.0,
+                            1.0,
+                            1.0,
+                        ],
+                        "_EmissionColor": [
+                            1.0,
+                            1.0,
+                            1.0,
+                            1.0,
+                        ],
+                        "_OutlineColor": [
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                        ],
+                        "_SphereAdd": [
+                            0.0,
+                            0.0,
+                            1.0,
+                            1.0,
+                        ],
+                        "_MainTex": [
+                            0.0,
+                            0.0,
+                            1.0,
+                            1.0,
+                        ],
+                        "_Color": [
+                            1.0,
+                            1.0,
+                            1.0,
+                            1.0,
+                        ],
+                        "_BumpMap": [
+                            0.0,
+                            0.0,
+                            1.0,
+                            1.0,
+                        ],
+                        "_OutlineWidthTexture": [
+                            0.0,
+                            0.0,
+                            1.0,
+                            1.0,
+                        ],
+                        "_EmissionMap": [
+                            0.0,
+                            0.0,
+                            1.0,
+                            1.0,
+                        ],
+                        "_ReceiveShadowTexture": [
+                            0.0,
+                            0.0,
+                            1.0,
+                            1.0,
+                        ],
+                        "_ShadeColor": [
+                            1.0,
+                            1.0,
+                            1.0,
+                            1.0,
+                        ],
+                        "_UvAnimMaskTexture": [
+                            0.0,
+                            0.0,
+                            1.0,
+                            1.0,
+                        ],
+                        "_ShadingGradeTexture": [
+                            0.0,
+                            0.0,
+                            1.0,
+                            1.0,
+                        ],
+                        "_RimColor": [
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0,
+                        ],
+                    },
+                ),
+            },
+            VRMMaterial {
+                float_properties: Some(
+                    {
+                        "_OutlineLightingMix": 1.0,
+                        "_OutlineScaledMaxDistance": 1.0,
+                        "_ShadingGradeRate": 1.0,
+                        "_BumpScale": 1.0,
+                        "_OutlineWidth": 0.075,
+                        "_SrcBlend": 1.0,
+                        "_CullMode": 0.0,
+                        "_IndirectLightIntensity": 0.1,
+                        "_ShadeShift": -0.9,
+                        "_UvAnimRotation": 0.0,
+                        "_BlendMode": 1.0,
+                        "_RimFresnelPower": 7.999984,
+                        "_ReceiveShadowRate": 1.0,
+                        "_UvAnimScrollX": 0.0,
+                        "_OutlineWidthMode": 1.0,
+                        "_UvAnimScrollY": 0.0,
+                        "_MToonVersion": 34.0,
+                        "_DstBlend": 0.0,
+                        "_RimLift": 0.1,
+                        "_ZWrite": 1.0,
+                        "_ShadeToony": 0.0,
+                        "_Cutoff": 0.5,
+                        "_DebugMode": 0.0,
+                        "_OutlineCullMode": 1.0,
+                        "_OutlineColorMode": 0.0,
+                        "_RimLightingMix": 0.0,
+                        "_LightColorAttenuation": 0.0,
+                    },
+                ),
+                keyword_map: Some(
+                    {
+                        "MTOON_OUTLINE_WIDTH_WORLD": true,
+                        "_ALPHATEST_ON": true,
+                        "MTOON_OUTLINE_COLOR_FIXED": true,
+                        "_NORMALMAP": true,
+                    },
+                ),
+                name: Some(
+                    "N00_000_00_Face_00_SKIN (Instance)",
+                ),
+                render_queue: Some(
+                    2450,
+                ),
+                shader: Some(
+                    "VRM/MToon",
+                ),
+                tag_map: Some(
+                    {
+                        "RenderType": "TransparentCutout",
+                    },
+                ),
+                texture_properties: Some(
+                    {
+                        "_BumpMap": 2,
+                        "_OutlineWidthTexture": 9,
+                        "_EmissionMap": 1,
+                        "_MainTex": 0,
+                        "_ShadeTexture": 7,
+                        "_SphereAdd": 10,
+                    },
+                ),
+                vector_properties: Some(
+                    {
+                        "_ShadeTexture": [
+                            0.0,
+                            0.0,
+                            1.0,
+                            1.0,
+                        ],
+                        "_RimTexture": [
+                            0.0,
+                            0.0,
+                            1.0,
+                            1.0,
+                        ],
+                        "_EmissionColor": [
+                            1.0,
+                            1.0,
+                            1.0,
+                            1.0,
+                        ],
+                        "_OutlineColor": [
+                            0.2745098,
+                            0.0901960656,
+                            0.125490159,
+                            1.0,
+                        ],
+                        "_SphereAdd": [
+                            0.0,
+                            0.0,
+                            1.0,
+                            1.0,
+                        ],
+                        "_MainTex": [
+                            0.0,
+                            0.0,
+                            1.0,
+                            1.0,
+                        ],
+                        "_Color": [
+                            1.0,
+                            1.0,
+                            1.0,
+                            1.0,
+                        ],
+                        "_BumpMap": [
+                            0.0,
+                            0.0,
+                            1.0,
+                            1.0,
+                        ],
+                        "_OutlineWidthTexture": [
+                            0.0,
+                            0.0,
+                            1.0,
+                            1.0,
+                        ],
+                        "_EmissionMap": [
+                            0.0,
+                            0.0,
+                            1.0,
+                            1.0,
+                        ],
+                        "_ReceiveShadowTexture": [
+                            0.0,
+                            0.0,
+                            1.0,
+                            1.0,
+                        ],
+                        "_ShadeColor": [
+                            1.0,
+                            1.0,
+                            1.0,
+                            1.0,
+                        ],
+                        "_UvAnimMaskTexture": [
+                            0.0,
+                            0.0,
+                            1.0,
+                            1.0,
+                        ],
+                        "_ShadingGradeTexture": [
+                            0.0,
+                            0.0,
+                            1.0,
+                            1.0,
+                        ],
+                        "_RimColor": [
+                            0.06814244,
+                            0.06814244,
+                            0.06814244,
+                            1.0,
+                        ],
+                    },
+                ),
+            },
+            VRMMaterial {
+                float_properties: Some(
+                    {
+                        "_OutlineLightingMix": 1.0,
+                        "_OutlineScaledMaxDistance": 1.0,
+                        "_ShadingGradeRate": 1.0,
+                        "_BumpScale": 1.0,
+                        "_OutlineWidth": 0.075,
+                        "_SrcBlend": 1.0,
+                        "_CullMode": 2.0,
+                        "_IndirectLightIntensity": 0.1,
+                        "_ShadeShift": -1.0,
+                        "_UvAnimRotation": 0.0,
+                        "_BlendMode": 1.0,
+                        "_RimFresnelPower": 7.999984,
+                        "_ReceiveShadowRate": 1.0,
+                        "_UvAnimScrollX": 0.0,
+                        "_OutlineWidthMode": 1.0,
+                        "_UvAnimScrollY": 0.0,
+                        "_MToonVersion": 34.0,
+                        "_DstBlend": 0.0,
+                        "_RimLift": 0.1,
+                        "_ZWrite": 1.0,
+                        "_ShadeToony": 1.0,
+                        "_Cutoff": 0.5,
+                        "_DebugMode": 0.0,
+                        "_OutlineCullMode": 1.0,
+                        "_OutlineColorMode": 0.0,
+                        "_RimLightingMix": 0.0,
+                        "_LightColorAttenuation": 0.0,
+                    },
+                ),
+                keyword_map: Some(
+                    {
+                        "MTOON_OUTLINE_WIDTH_WORLD": true,
+                        "_ALPHATEST_ON": true,
+                        "MTOON_OUTLINE_COLOR_FIXED": true,
+                        "_NORMALMAP": true,
+                    },
+                ),
+                name: Some(
+                    "N00_000_00_Body_00_SKIN (Instance)",
+                ),
+                render_queue: Some(
+                    2450,
+                ),
+                shader: Some(
+                    "VRM/MToon",
+                ),
+                tag_map: Some(
+                    {
+                        "RenderType": "TransparentCutout",
+                    },
+                ),
+                texture_properties: Some(
+                    {
+                        "_BumpMap": 5,
+                        "_OutlineWidthTexture": 12,
+                        "_EmissionMap": 4,
+                        "_MainTex": 3,
+                        "_ShadeTexture": 11,
+                        "_SphereAdd": 10,
+                    },
+                ),
+                vector_properties: Some(
+                    {
+                        "_ShadeTexture": [
+                            0.0,
+                            0.0,
+                            1.0,
+                            1.0,
+                        ],
+                        "_RimTexture": [
+                            0.0,
+                            0.0,
+                            1.0,
+                            1.0,
+                        ],
+                        "_EmissionColor": [
+                            1.0,
+                            1.0,
+                            1.0,
+                            1.0,
+                        ],
+                        "_OutlineColor": [
+                            0.2745098,
+                            0.0901960656,
+                            0.125490159,
+                            1.0,
+                        ],
+                        "_SphereAdd": [
+                            0.0,
+                            0.0,
+                            1.0,
+                            1.0,
+                        ],
+                        "_MainTex": [
+                            0.0,
+                            0.0,
+                            1.0,
+                            1.0,
+                        ],
+                        "_Color": [
+                            1.0,
+                            1.0,
+                            1.0,
+                            1.0,
+                        ],
+                        "_BumpMap": [
+                            0.0,
+                            0.0,
+                            1.0,
+                            1.0,
+                        ],
+                        "_OutlineWidthTexture": [
+                            0.0,
+                            0.0,
+                            1.0,
+                            1.0,
+                        ],
+                        "_EmissionMap": [
+                            0.0,
+                            0.0,
+                            1.0,
+                            1.0,
+                        ],
+                        "_ReceiveShadowTexture": [
+                            0.0,
+                            0.0,
+                            1.0,
+                            1.0,
+                        ],
+                        "_ShadeColor": [
+                            1.0,
+                            1.0,
+                            1.0,
+                            1.0,
+                        ],
+                        "_UvAnimMaskTexture": [
+                            0.0,
+                            0.0,
+                            1.0,
+                            1.0,
+                        ],
+                        "_ShadingGradeTexture": [
+                            0.0,
+                            0.0,
+                            1.0,
+                            1.0,
+                        ],
+                        "_RimColor": [
+                            0.06814244,
+                            0.06814244,
+                            0.06814244,
+                            1.0,
+                        ],
+                    },
+                ),
+            },
+            VRMMaterial {
+                float_properties: Some(
+                    {
+                        "_OutlineLightingMix": 1.0,
+                        "_OutlineScaledMaxDistance": 1.0,
+                        "_ShadingGradeRate": 1.0,
+                        "_BumpScale": 1.0,
+                        "_OutlineWidth": 0.075,
+                        "_SrcBlend": 1.0,
+                        "_CullMode": 0.0,
+                        "_IndirectLightIntensity": 0.1,
+                        "_ShadeShift": -1.0,
+                        "_UvAnimRotation": 0.0,
+                        "_BlendMode": 1.0,
+                        "_RimFresnelPower": 7.999984,
+                        "_ReceiveShadowRate": 1.0,
+                        "_UvAnimScrollX": 0.0,
+                        "_OutlineWidthMode": 1.0,
+                        "_UvAnimScrollY": 0.0,
+                        "_MToonVersion": 34.0,
+                        "_DstBlend": 0.0,
+                        "_RimLift": 0.1,
+                        "_ZWrite": 1.0,
+                        "_ShadeToony": 1.0,
+                        "_Cutoff": 0.5,
+                        "_DebugMode": 0.0,
+                        "_OutlineCullMode": 1.0,
+                        "_OutlineColorMode": 0.0,
+                        "_RimLightingMix": 0.0,
+                        "_LightColorAttenuation": 0.0,
+                    },
+                ),
+                keyword_map: Some(
+                    {
+                        "MTOON_OUTLINE_WIDTH_WORLD": true,
+                        "_ALPHATEST_ON": true,
+                        "MTOON_OUTLINE_COLOR_FIXED": true,
+                        "_NORMALMAP": true,
+                    },
+                ),
+                name: Some(
+                    "N00_001_02_Bottoms_01_CLOTH (Instance)",
+                ),
+                render_queue: Some(
+                    2450,
+                ),
+                shader: Some(
+                    "VRM/MToon",
+                ),
+                tag_map: Some(
+                    {
+                        "RenderType": "TransparentCutout",
+                    },
+                ),
+                texture_properties: Some(
+                    {
+                        "_BumpMap": 5,
+                        "_OutlineWidthTexture": 12,
+                        "_EmissionMap": 4,
+                        "_MainTex": 3,
+                        "_ShadeTexture": 11,
+                        "_SphereAdd": 10,
+                    },
+                ),
+                vector_properties: Some(
+                    {
+                        "_ShadeTexture": [
+                            0.0,
+                            0.0,
+                            1.0,
+                            1.0,
+                        ],
+                        "_RimTexture": [
+                            0.0,
+                            0.0,
+                            1.0,
+                            1.0,
+                        ],
+                        "_EmissionColor": [
+                            1.0,
+                            1.0,
+                            1.0,
+                            1.0,
+                        ],
+                        "_OutlineColor": [
+                            0.2745098,
+                            0.0901960656,
+                            0.125490159,
+                            1.0,
+                        ],
+                        "_SphereAdd": [
+                            0.0,
+                            0.0,
+                            1.0,
+                            1.0,
+                        ],
+                        "_MainTex": [
+                            0.0,
+                            0.0,
+                            1.0,
+                            1.0,
+                        ],
+                        "_Color": [
+                            1.0,
+                            1.0,
+                            1.0,
+                            1.0,
+                        ],
+                        "_BumpMap": [
+                            0.0,
+                            0.0,
+                            1.0,
+                            1.0,
+                        ],
+                        "_OutlineWidthTexture": [
+                            0.0,
+                            0.0,
+                            1.0,
+                            1.0,
+                        ],
+                        "_EmissionMap": [
+                            0.0,
+                            0.0,
+                            1.0,
+                            1.0,
+                        ],
+                        "_ReceiveShadowTexture": [
+                            0.0,
+                            0.0,
+                            1.0,
+                            1.0,
+                        ],
+                        "_ShadeColor": [
+                            1.0,
+                            1.0,
+                            1.0,
+                            1.0,
+                        ],
+                        "_UvAnimMaskTexture": [
+                            0.0,
+                            0.0,
+                            1.0,
+                            1.0,
+                        ],
+                        "_ShadingGradeTexture": [
+                            0.0,
+                            0.0,
+                            1.0,
+                            1.0,
+                        ],
+                        "_RimColor": [
+                            0.06814244,
+                            0.06814244,
+                            0.06814244,
+                            1.0,
+                        ],
+                    },
+                ),
+            },
+            VRMMaterial {
+                float_properties: Some(
+                    {
+                        "_OutlineLightingMix": 1.0,
+                        "_OutlineScaledMaxDistance": 1.0,
+                        "_ShadingGradeRate": 1.0,
+                        "_BumpScale": 1.0,
+                        "_OutlineWidth": 0.075,
+                        "_SrcBlend": 1.0,
+                        "_CullMode": 0.0,
+                        "_IndirectLightIntensity": 0.1,
+                        "_ShadeShift": -0.3,
+                        "_UvAnimRotation": 0.0,
+                        "_BlendMode": 1.0,
+                        "_RimFresnelPower": 8.61537552,
+                        "_ReceiveShadowRate": 1.0,
+                        "_UvAnimScrollX": 0.0,
+                        "_OutlineWidthMode": 1.0,
+                        "_UvAnimScrollY": 0.0,
+                        "_MToonVersion": 34.0,
+                        "_DstBlend": 0.0,
+                        "_RimLift": 0.1,
+                        "_ZWrite": 1.0,
+                        "_ShadeToony": 0.0,
+                        "_Cutoff": 0.5,
+                        "_DebugMode": 0.0,
+                        "_OutlineCullMode": 1.0,
+                        "_OutlineColorMode": 0.0,
+                        "_RimLightingMix": 0.0,
+                        "_LightColorAttenuation": 0.0,
+                    },
+                ),
+                keyword_map: Some(
+                    {
+                        "MTOON_OUTLINE_WIDTH_WORLD": true,
+                        "_ALPHATEST_ON": true,
+                        "MTOON_OUTLINE_COLOR_FIXED": true,
+                        "_NORMALMAP": true,
+                    },
+                ),
+                name: Some(
+                    "N00_000_Hair_00_HAIR_01 (Instance)",
+                ),
+                render_queue: Some(
+                    2450,
+                ),
+                shader: Some(
+                    "VRM/MToon",
+                ),
+                tag_map: Some(
+                    {
+                        "RenderType": "TransparentCutout",
+                    },
+                ),
+                texture_properties: Some(
+                    {
+                        "_BumpMap": 5,
+                        "_OutlineWidthTexture": 12,
+                        "_EmissionMap": 4,
+                        "_MainTex": 3,
+                        "_ShadeTexture": 11,
+                        "_SphereAdd": 10,
+                    },
+                ),
+                vector_properties: Some(
+                    {
+                        "_ShadeTexture": [
+                            0.0,
+                            0.0,
+                            1.0,
+                            1.0,
+                        ],
+                        "_RimTexture": [
+                            0.0,
+                            0.0,
+                            1.0,
+                            1.0,
+                        ],
+                        "_EmissionColor": [
+                            1.0,
+                            1.0,
+                            1.0,
+                            1.0,
+                        ],
+                        "_OutlineColor": [
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0,
+                        ],
+                        "_SphereAdd": [
+                            0.0,
+                            0.0,
+                            1.0,
+                            1.0,
+                        ],
+                        "_MainTex": [
+                            0.0,
+                            0.0,
+                            1.0,
+                            1.0,
+                        ],
+                        "_Color": [
+                            1.0,
+                            1.0,
+                            1.0,
+                            1.0,
+                        ],
+                        "_BumpMap": [
+                            0.0,
+                            0.0,
+                            1.0,
+                            1.0,
+                        ],
+                        "_OutlineWidthTexture": [
+                            0.0,
+                            0.0,
+                            1.0,
+                            1.0,
+                        ],
+                        "_EmissionMap": [
+                            0.0,
+                            0.0,
+                            1.0,
+                            1.0,
+                        ],
+                        "_ReceiveShadowTexture": [
+                            0.0,
+                            0.0,
+                            1.0,
+                            1.0,
+                        ],
+                        "_ShadeColor": [
+                            1.0,
+                            1.0,
+                            1.0,
+                            1.0,
+                        ],
+                        "_UvAnimMaskTexture": [
+                            0.0,
+                            0.0,
+                            1.0,
+                            1.0,
+                        ],
+                        "_ShadingGradeTexture": [
+                            0.0,
+                            0.0,
+                            1.0,
+                            1.0,
+                        ],
+                        "_RimColor": [
+                            0.04832035,
+                            0.04832035,
+                            0.04832035,
+                            1.0,
+                        ],
+                    },
+                ),
+            },
+        ],
+    ),
+    meta: Some(
+        VRMMeta {
+            allowed_user_name: Some(
+                Everyone,
+            ),
+            author: Some(
+                "VRoid Project",
+            ),
+            commercial_ussage_name: Some(
+                Allow,
+            ),
+            contact_information: Some(
+                "https://www.pixiv.net/support.php?mode=select_vroid",
+            ),
+            license_name: Some(
+                Other,
+            ),
+            other_license_url: Some(
+                "https://hub.vroid.com/license?allowed_to_use_user=everyone&characterization_allowed_user=everyone&corporate_commercial_use=allow&credit=unnecessary&modification=allow&personal_commercial_use=profit&redistribution=allow&sexual_expression=allow&version=1&violent_expression=allow",
+            ),
+            other_permission_url: Some(
+                "https://hub.vroid.com/license?allowed_to_use_user=everyone&characterization_allowed_user=everyone&corporate_commercial_use=allow&credit=unnecessary&modification=allow&personal_commercial_use=profit&redistribution=allow&sexual_expression=allow&version=1&violent_expression=allow",
+            ),
+            reference: None,
+            sexual_ussage_name: Some(
+                Allow,
+            ),
+            texture: Some(
+                6,
+            ),
+            title: Some(
+                "AvatarSample_A",
+            ),
+            version: Some(
+                "1.0",
+            ),
+            violent_ussage_name: Some(
+                Allow,
+            ),
+        },
+    ),
+    secondary_animation: Some(
+        VRMSecondaryAnimation {
+            bone_groups: Some(
+                [
+                    VRMSecondaryAnimationSpring {
+                        bones: Some(
+                            [
+                                5,
+                                7,
+                            ],
+                        ),
+                        center: Some(
+                            0,
+                        ),
+                        collider_groups: Some(
+                            [],
+                        ),
+                        comment: Some(
+                            "Bust",
+                        ),
+                        drag_force: Some(
+                            0.05,
+                        ),
+                        gravity_dir: Some(
+                            OptionalVector3 {
+                                x: Some(
+                                    0.0,
+                                ),
+                                y: Some(
+                                    -1.0,
+                                ),
+                                z: Some(
+                                    0.0,
+                                ),
+                            },
+                        ),
+                        gravity_power: Some(
+                            0.0,
+                        ),
+                        hit_radius: Some(
+                            0.00772699434,
+                        ),
+                        stiffiness: Some(
+                            0.75,
+                        ),
+                    },
+                    VRMSecondaryAnimationSpring {
+                        bones: Some(
+                            [
+                                9,
+                            ],
+                        ),
+                        center: Some(
+                            0,
+                        ),
+                        collider_groups: Some(
+                            [],
+                        ),
+                        comment: Some(
+                            "Hood",
+                        ),
+                        drag_force: Some(
+                            0.05,
+                        ),
+                        gravity_dir: Some(
+                            OptionalVector3 {
+                                x: Some(
+                                    0.0,
+                                ),
+                                y: Some(
+                                    -1.0,
+                                ),
+                                z: Some(
+                                    0.0,
+                                ),
+                            },
+                        ),
+                        gravity_power: Some(
+                            0.0,
+                        ),
+                        hit_radius: Some(
+                            0.00773664657,
+                        ),
+                        stiffiness: Some(
+                            0.75,
+                        ),
+                    },
+                    VRMSecondaryAnimationSpring {
+                        bones: Some(
+                            [
+                                12,
+                                15,
+                            ],
+                        ),
+                        center: Some(
+                            0,
+                        ),
+                        collider_groups: Some(
+                            [],
+                        ),
+                        comment: Some(
+                            "HoodString",
+                        ),
+                        drag_force: Some(
+                            0.0,
+                        ),
+                        gravity_dir: Some(
+                            OptionalVector3 {
+                                x: Some(
+                                    0.0,
+                                ),
+                                y: Some(
+                                    -1.0,
+                                ),
+                                z: Some(
+                                    0.0,
+                                ),
+                            },
+                        ),
+                        gravity_power: Some(
+                            0.25,
+                        ),
+                        hit_radius: Some(
+                            0.007736551,
+                        ),
+                        stiffiness: Some(
+                            0.26,
+                        ),
+                    },
+                    VRMSecondaryAnimationSpring {
+                        bones: Some(
+                            [
+                                21,
+                            ],
+                        ),
+                        center: Some(
+                            0,
+                        ),
+                        collider_groups: Some(
+                            [
+                                3,
+                                4,
+                                7,
+                                5,
+                                8,
+                                6,
+                                9,
+                                1,
+                                0,
+                                2,
+                            ],
+                        ),
+                        comment: Some(
+                            "Hair",
+                        ),
+                        drag_force: Some(
+                            0.4,
+                        ),
+                        gravity_dir: Some(
+                            OptionalVector3 {
+                                x: Some(
+                                    0.0,
+                                ),
+                                y: Some(
+                                    -1.0,
+                                ),
+                                z: Some(
+                                    0.0,
+                                ),
+                            },
+                        ),
+                        gravity_power: Some(
+                            0.0,
+                        ),
+                        hit_radius: Some(
+                            0.0107275,
+                        ),
+                        stiffiness: Some(
+                            0.8475211,
+                        ),
+                    },
+                    VRMSecondaryAnimationSpring {
+                        bones: Some(
+                            [
+                                23,
+                            ],
+                        ),
+                        center: Some(
+                            0,
+                        ),
+                        collider_groups: Some(
+                            [
+                                3,
+                                4,
+                                7,
+                                5,
+                                8,
+                                6,
+                                9,
+                                1,
+                                0,
+                                2,
+                            ],
+                        ),
+                        comment: Some(
+                            "Hair",
+                        ),
+                        drag_force: Some(
+                            0.4,
+                        ),
+                        gravity_dir: Some(
+                            OptionalVector3 {
+                                x: Some(
+                                    0.0,
+                                ),
+                                y: Some(
+                                    -1.0,
+                                ),
+                                z: Some(
+                                    0.0,
+                                ),
+                            },
+                        ),
+                        gravity_power: Some(
+                            0.0,
+                        ),
+                        hit_radius: Some(
+                            0.0107275,
+                        ),
+                        stiffiness: Some(
+                            0.848229468,
+                        ),
+                    },
+                    VRMSecondaryAnimationSpring {
+                        bones: Some(
+                            [
+                                26,
+                            ],
+                        ),
+                        center: Some(
+                            0,
+                        ),
+                        collider_groups: Some(
+                            [
+                                3,
+                                4,
+                                7,
+                                5,
+                                8,
+                                6,
+                                9,
+                                1,
+                                0,
+                                2,
+                            ],
+                        ),
+                        comment: Some(
+                            "Hair",
+                        ),
+                        drag_force: Some(
+                            0.4,
+                        ),
+                        gravity_dir: Some(
+                            OptionalVector3 {
+                                x: Some(
+                                    0.0,
+                                ),
+                                y: Some(
+                                    -1.0,
+                                ),
+                                z: Some(
+                                    0.0,
+                                ),
+                            },
+                        ),
+                        gravity_power: Some(
+                            0.0,
+                        ),
+                        hit_radius: Some(
+                            0.0107275015,
+                        ),
+                        stiffiness: Some(
+                            0.8020291,
+                        ),
+                    },
+                    VRMSecondaryAnimationSpring {
+                        bones: Some(
+                            [
+                                30,
+                            ],
+                        ),
+                        center: Some(
+                            0,
+                        ),
+                        collider_groups: Some(
+                            [
+                                3,
+                                4,
+                                7,
+                                5,
+                                8,
+                                6,
+                                9,
+                                1,
+                                0,
+                                2,
+                            ],
+                        ),
+                        comment: Some(
+                            "Hair",
+                        ),
+                        drag_force: Some(
+                            0.4,
+                        ),
+                        gravity_dir: Some(
+                            OptionalVector3 {
+                                x: Some(
+                                    0.0,
+                                ),
+                                y: Some(
+                                    -1.0,
+                                ),
+                                z: Some(
+                                    0.0,
+                                ),
+                            },
+                        ),
+                        gravity_power: Some(
+                            0.0,
+                        ),
+                        hit_radius: Some(
+                            0.0107275154,
+                        ),
+                        stiffiness: Some(
+                            0.8012918,
+                        ),
+                    },
+                    VRMSecondaryAnimationSpring {
+                        bones: Some(
+                            [
+                                34,
+                            ],
+                        ),
+                        center: Some(
+                            0,
+                        ),
+                        collider_groups: Some(
+                            [
+                                3,
+                                4,
+                                7,
+                                5,
+                                8,
+                                6,
+                                9,
+                                1,
+                                0,
+                                2,
+                            ],
+                        ),
+                        comment: Some(
+                            "Hair",
+                        ),
+                        drag_force: Some(
+                            0.4,
+                        ),
+                        gravity_dir: Some(
+                            OptionalVector3 {
+                                x: Some(
+                                    0.0,
+                                ),
+                                y: Some(
+                                    -1.0,
+                                ),
+                                z: Some(
+                                    0.0,
+                                ),
+                            },
+                        ),
+                        gravity_power: Some(
+                            0.0,
+                        ),
+                        hit_radius: Some(
+                            0.0107275052,
+                        ),
+                        stiffiness: Some(
+                            0.7997162,
+                        ),
+                    },
+                    VRMSecondaryAnimationSpring {
+                        bones: Some(
+                            [
+                                38,
+                            ],
+                        ),
+                        center: Some(
+                            0,
+                        ),
+                        collider_groups: Some(
+                            [
+                                3,
+                                4,
+                                7,
+                                5,
+                                8,
+                                6,
+                                9,
+                                1,
+                                0,
+                                2,
+                            ],
+                        ),
+                        comment: Some(
+                            "Hair",
+                        ),
+                        drag_force: Some(
+                            0.4,
+                        ),
+                        gravity_dir: Some(
+                            OptionalVector3 {
+                                x: Some(
+                                    0.0,
+                                ),
+                                y: Some(
+                                    -1.0,
+                                ),
+                                z: Some(
+                                    0.0,
+                                ),
+                            },
+                        ),
+                        gravity_power: Some(
+                            0.0,
+                        ),
+                        hit_radius: Some(
+                            0.0107275071,
+                        ),
+                        stiffiness: Some(
+                            0.854821265,
+                        ),
+                    },
+                    VRMSecondaryAnimationSpring {
+                        bones: Some(
+                            [
+                                41,
+                            ],
+                        ),
+                        center: Some(
+                            0,
+                        ),
+                        collider_groups: Some(
+                            [
+                                3,
+                                4,
+                                7,
+                                5,
+                                8,
+                                6,
+                                9,
+                                1,
+                                0,
+                                2,
+                            ],
+                        ),
+                        comment: Some(
+                            "Hair",
+                        ),
+                        drag_force: Some(
+                            0.4,
+                        ),
+                        gravity_dir: Some(
+                            OptionalVector3 {
+                                x: Some(
+                                    0.0,
+                                ),
+                                y: Some(
+                                    -1.0,
+                                ),
+                                z: Some(
+                                    0.0,
+                                ),
+                            },
+                        ),
+                        gravity_power: Some(
+                            0.0,
+                        ),
+                        hit_radius: Some(
+                            0.0107275164,
+                        ),
+                        stiffiness: Some(
+                            0.798603058,
+                        ),
+                    },
+                ],
+            ),
+            collider_groups: Some(
+                [
+                    VRMSecondaryAnimationColliderGroup {
+                        colliders: Some(
+                            [
+                                Collider {
+                                    offset: Some(
+                                        OptionalVector3 {
+                                            x: Some(
+                                                0.0,
+                                            ),
+                                            y: Some(
+                                                0.0,
+                                            ),
+                                            z: Some(
+                                                0.0,
+                                            ),
+                                        },
+                                    ),
+                                    radius: Some(
+                                        0.103557207,
+                                    ),
+                                },
+                            ],
+                        ),
+                        node: Some(
+                            2,
+                        ),
+                    },
+                    VRMSecondaryAnimationColliderGroup {
+                        colliders: Some(
+                            [
+                                Collider {
+                                    offset: Some(
+                                        OptionalVector3 {
+                                            x: Some(
+                                                0.0,
+                                            ),
+                                            y: Some(
+                                                0.00286316872,
+                                            ),
+                                            z: Some(
+                                                0.00814094953,
+                                            ),
+                                        },
+                                    ),
+                                    radius: Some(
+                                        0.08629768,
+                                    ),
+                                },
+                                Collider {
+                                    offset: Some(
+                                        OptionalVector3 {
+                                            x: Some(
+                                                -0.04314884,
+                                            ),
+                                            y: Some(
+                                                0.050053,
+                                            ),
+                                            z: Some(
+                                                -0.0267516635,
+                                            ),
+                                        },
+                                    ),
+                                    radius: Some(
+                                        0.0604083762,
+                                    ),
+                                },
+                                Collider {
+                                    offset: Some(
+                                        OptionalVector3 {
+                                            x: Some(
+                                                0.04314884,
+                                            ),
+                                            y: Some(
+                                                0.050053,
+                                            ),
+                                            z: Some(
+                                                -0.0267516635,
+                                            ),
+                                        },
+                                    ),
+                                    radius: Some(
+                                        0.0604083762,
+                                    ),
+                                },
+                            ],
+                        ),
+                        node: Some(
+                            4,
+                        ),
+                    },
+                    VRMSecondaryAnimationColliderGroup {
+                        colliders: Some(
+                            [
+                                Collider {
+                                    offset: Some(
+                                        OptionalVector3 {
+                                            x: Some(
+                                                0.0,
+                                            ),
+                                            y: Some(
+                                                0.0243667364,
+                                            ),
+                                            z: Some(
+                                                0.0142260259,
+                                            ),
+                                        },
+                                    ),
+                                    radius: Some(
+                                        0.04314884,
+                                    ),
+                                },
+                            ],
+                        ),
+                        node: Some(
+                            17,
+                        ),
+                    },
+                    VRMSecondaryAnimationColliderGroup {
+                        colliders: Some(
+                            [
+                                Collider {
+                                    offset: Some(
+                                        OptionalVector3 {
+                                            x: Some(
+                                                1.19215393e-8,
+                                            ),
+                                            y: Some(
+                                                0.107435942,
+                                            ),
+                                            z: Some(
+                                                -0.0142858028,
+                                            ),
+                                        },
+                                    ),
+                                    radius: Some(
+                                        0.107275121,
+                                    ),
+                                },
+                            ],
+                        ),
+                        node: Some(
+                            18,
+                        ),
+                    },
+                    VRMSecondaryAnimationColliderGroup {
+                        colliders: Some(
+                            [
+                                Collider {
+                                    offset: Some(
+                                        OptionalVector3 {
+                                            x: Some(
+                                                0.0,
+                                            ),
+                                            y: Some(
+                                                -0.008629799,
+                                            ),
+                                            z: Some(
+                                                -3.7252903e-9,
+                                            ),
+                                        },
+                                    ),
+                                    radius: Some(
+                                        0.0431488454,
+                                    ),
+                                },
+                                Collider {
+                                    offset: Some(
+                                        OptionalVector3 {
+                                            x: Some(
+                                                -0.06472327,
+                                            ),
+                                            y: Some(
+                                                -0.008629799,
+                                            ),
+                                            z: Some(
+                                                -3.7252903e-9,
+                                            ),
+                                        },
+                                    ),
+                                    radius: Some(
+                                        0.0431488454,
+                                    ),
+                                },
+                                Collider {
+                                    offset: Some(
+                                        OptionalVector3 {
+                                            x: Some(
+                                                -0.129446536,
+                                            ),
+                                            y: Some(
+                                                -0.008629799,
+                                            ),
+                                            z: Some(
+                                                -1.86264515e-9,
+                                            ),
+                                        },
+                                    ),
+                                    radius: Some(
+                                        0.0431488454,
+                                    ),
+                                },
+                            ],
+                        ),
+                        node: Some(
+                            46,
+                        ),
+                    },
+                    VRMSecondaryAnimationColliderGroup {
+                        colliders: Some(
+                            [
+                                Collider {
+                                    offset: Some(
+                                        OptionalVector3 {
+                                            x: Some(
+                                                2.98023224e-8,
+                                            ),
+                                            y: Some(
+                                                0.0,
+                                            ),
+                                            z: Some(
+                                                -3.7252903e-9,
+                                            ),
+                                        },
+                                    ),
+                                    radius: Some(
+                                        0.0258893073,
+                                    ),
+                                },
+                                Collider {
+                                    offset: Some(
+                                        OptionalVector3 {
+                                            x: Some(
+                                                -0.043148756,
+                                            ),
+                                            y: Some(
+                                                0.0,
+                                            ),
+                                            z: Some(
+                                                7.530488e-5,
+                                            ),
+                                        },
+                                    ),
+                                    radius: Some(
+                                        0.0302041918,
+                                    ),
+                                },
+                                Collider {
+                                    offset: Some(
+                                        OptionalVector3 {
+                                            x: Some(
+                                                -0.08629751,
+                                            ),
+                                            y: Some(
+                                                0.0,
+                                            ),
+                                            z: Some(
+                                                0.000150615349,
+                                            ),
+                                        },
+                                    ),
+                                    radius: Some(
+                                        0.0258893073,
+                                    ),
+                                },
+                                Collider {
+                                    offset: Some(
+                                        OptionalVector3 {
+                                            x: Some(
+                                                -0.129446328,
+                                            ),
+                                            y: Some(
+                                                0.0,
+                                            ),
+                                            z: Some(
+                                                0.000225923955,
+                                            ),
+                                        },
+                                    ),
+                                    radius: Some(
+                                        0.0258893073,
+                                    ),
+                                },
+                            ],
+                        ),
+                        node: Some(
+                            47,
+                        ),
+                    },
+                    VRMSecondaryAnimationColliderGroup {
+                        colliders: Some(
+                            [
+                                Collider {
+                                    offset: Some(
+                                        OptionalVector3 {
+                                            x: Some(
+                                                -0.0159171224,
+                                            ),
+                                            y: Some(
+                                                0.0,
+                                            ),
+                                            z: Some(
+                                                7.450581e-9,
+                                            ),
+                                        },
+                                    ),
+                                    radius: Some(
+                                        0.0238757227,
+                                    ),
+                                },
+                            ],
+                        ),
+                        node: Some(
+                            48,
+                        ),
+                    },
+                    VRMSecondaryAnimationColliderGroup {
+                        colliders: Some(
+                            [
+                                Collider {
+                                    offset: Some(
+                                        OptionalVector3 {
+                                            x: Some(
+                                                0.0,
+                                            ),
+                                            y: Some(
+                                                -0.008629799,
+                                            ),
+                                            z: Some(
+                                                -3.7252903e-9,
+                                            ),
+                                        },
+                                    ),
+                                    radius: Some(
+                                        0.0431488454,
+                                    ),
+                                },
+                                Collider {
+                                    offset: Some(
+                                        OptionalVector3 {
+                                            x: Some(
+                                                0.06472327,
+                                            ),
+                                            y: Some(
+                                                -0.008629799,
+                                            ),
+                                            z: Some(
+                                                -3.7252903e-9,
+                                            ),
+                                        },
+                                    ),
+                                    radius: Some(
+                                        0.0431488454,
+                                    ),
+                                },
+                                Collider {
+                                    offset: Some(
+                                        OptionalVector3 {
+                                            x: Some(
+                                                0.129446536,
+                                            ),
+                                            y: Some(
+                                                -0.008629799,
+                                            ),
+                                            z: Some(
+                                                -1.86264515e-9,
+                                            ),
+                                        },
+                                    ),
+                                    radius: Some(
+                                        0.0431488454,
+                                    ),
+                                },
+                            ],
+                        ),
+                        node: Some(
+                            65,
+                        ),
+                    },
+                    VRMSecondaryAnimationColliderGroup {
+                        colliders: Some(
+                            [
+                                Collider {
+                                    offset: Some(
+                                        OptionalVector3 {
+                                            x: Some(
+                                                -2.98023224e-8,
+                                            ),
+                                            y: Some(
+                                                0.0,
+                                            ),
+                                            z: Some(
+                                                -3.7252903e-9,
+                                            ),
+                                        },
+                                    ),
+                                    radius: Some(
+                                        0.0258893073,
+                                    ),
+                                },
+                                Collider {
+                                    offset: Some(
+                                        OptionalVector3 {
+                                            x: Some(
+                                                0.043148756,
+                                            ),
+                                            y: Some(
+                                                0.0,
+                                            ),
+                                            z: Some(
+                                                7.530488e-5,
+                                            ),
+                                        },
+                                    ),
+                                    radius: Some(
+                                        0.0302041918,
+                                    ),
+                                },
+                                Collider {
+                                    offset: Some(
+                                        OptionalVector3 {
+                                            x: Some(
+                                                0.08629751,
+                                            ),
+                                            y: Some(
+                                                0.0,
+                                            ),
+                                            z: Some(
+                                                0.000150615349,
+                                            ),
+                                        },
+                                    ),
+                                    radius: Some(
+                                        0.0258893073,
+                                    ),
+                                },
+                                Collider {
+                                    offset: Some(
+                                        OptionalVector3 {
+                                            x: Some(
+                                                0.129446328,
+                                            ),
+                                            y: Some(
+                                                0.0,
+                                            ),
+                                            z: Some(
+                                                0.000225923955,
+                                            ),
+                                        },
+                                    ),
+                                    radius: Some(
+                                        0.0258893073,
+                                    ),
+                                },
+                            ],
+                        ),
+                        node: Some(
+                            66,
+                        ),
+                    },
+                    VRMSecondaryAnimationColliderGroup {
+                        colliders: Some(
+                            [
+                                Collider {
+                                    offset: Some(
+                                        OptionalVector3 {
+                                            x: Some(
+                                                0.0159171224,
+                                            ),
+                                            y: Some(
+                                                0.0,
+                                            ),
+                                            z: Some(
+                                                7.450581e-9,
+                                            ),
+                                        },
+                                    ),
+                                    radius: Some(
+                                        0.0238757227,
+                                    ),
+                                },
+                            ],
+                        ),
+                        node: Some(
+                            67,
+                        ),
+                    },
+                ],
+            ),
+        },
+    ),
+    spec_version: Some(
+        "0.0",
+    ),
+}

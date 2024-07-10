@@ -1,0 +1,1045 @@
+---
+source: crates/vrm-spec/tests/test.rs
+expression: vrmc_vrm
+---
+VRMCVrmSchema {
+    expressions: Some(
+        Expressions {
+            custom: None,
+            extensions: None,
+            extras: None,
+            preset: Some(
+                Preset(
+                    {
+                        Aa: Expression {
+                            extensions: None,
+                            extras: None,
+                            is_binary: Some(
+                                false,
+                            ),
+                            material_color_binds: None,
+                            morph_target_binds: Some(
+                                [
+                                    MorphTargetBind {
+                                        extensions: None,
+                                        extras: None,
+                                        index: 36,
+                                        node: 1,
+                                        weight: 1.0,
+                                    },
+                                ],
+                            ),
+                            override_blink: None,
+                            override_look_at: None,
+                            override_mouth: None,
+                            texture_transform_binds: None,
+                        },
+                        Relaxed: Expression {
+                            extensions: None,
+                            extras: None,
+                            is_binary: Some(
+                                false,
+                            ),
+                            material_color_binds: None,
+                            morph_target_binds: Some(
+                                [
+                                    MorphTargetBind {
+                                        extensions: None,
+                                        extras: None,
+                                        index: 2,
+                                        node: 1,
+                                        weight: 1.0,
+                                    },
+                                ],
+                            ),
+                            override_blink: None,
+                            override_look_at: None,
+                            override_mouth: None,
+                            texture_transform_binds: None,
+                        },
+                        LookUp: Expression {
+                            extensions: None,
+                            extras: None,
+                            is_binary: Some(
+                                false,
+                            ),
+                            material_color_binds: None,
+                            morph_target_binds: None,
+                            override_blink: None,
+                            override_look_at: None,
+                            override_mouth: None,
+                            texture_transform_binds: None,
+                        },
+                        Ih: Expression {
+                            extensions: None,
+                            extras: None,
+                            is_binary: Some(
+                                false,
+                            ),
+                            material_color_binds: None,
+                            morph_target_binds: Some(
+                                [
+                                    MorphTargetBind {
+                                        extensions: None,
+                                        extras: None,
+                                        index: 37,
+                                        node: 1,
+                                        weight: 1.0,
+                                    },
+                                ],
+                            ),
+                            override_blink: None,
+                            override_look_at: None,
+                            override_mouth: None,
+                            texture_transform_binds: None,
+                        },
+                        BlinkLeft: Expression {
+                            extensions: None,
+                            extras: None,
+                            is_binary: Some(
+                                false,
+                            ),
+                            material_color_binds: None,
+                            morph_target_binds: Some(
+                                [
+                                    MorphTargetBind {
+                                        extensions: None,
+                                        extras: None,
+                                        index: 13,
+                                        node: 1,
+                                        weight: 1.0,
+                                    },
+                                ],
+                            ),
+                            override_blink: None,
+                            override_look_at: None,
+                            override_mouth: None,
+                            texture_transform_binds: None,
+                        },
+                        Ou: Expression {
+                            extensions: None,
+                            extras: None,
+                            is_binary: Some(
+                                false,
+                            ),
+                            material_color_binds: None,
+                            morph_target_binds: Some(
+                                [
+                                    MorphTargetBind {
+                                        extensions: None,
+                                        extras: None,
+                                        index: 38,
+                                        node: 1,
+                                        weight: 1.0,
+                                    },
+                                ],
+                            ),
+                            override_blink: None,
+                            override_look_at: None,
+                            override_mouth: None,
+                            texture_transform_binds: None,
+                        },
+                        LookRight: Expression {
+                            extensions: None,
+                            extras: None,
+                            is_binary: Some(
+                                false,
+                            ),
+                            material_color_binds: None,
+                            morph_target_binds: None,
+                            override_blink: None,
+                            override_look_at: None,
+                            override_mouth: None,
+                            texture_transform_binds: None,
+                        },
+                        Happy: Expression {
+                            extensions: None,
+                            extras: None,
+                            is_binary: Some(
+                                false,
+                            ),
+                            material_color_binds: None,
+                            morph_target_binds: Some(
+                                [
+                                    MorphTargetBind {
+                                        extensions: None,
+                                        extras: None,
+                                        index: 3,
+                                        node: 1,
+                                        weight: 1.0,
+                                    },
+                                ],
+                            ),
+                            override_blink: Some(
+                                Blend,
+                            ),
+                            override_look_at: None,
+                            override_mouth: Some(
+                                Blend,
+                            ),
+                            texture_transform_binds: None,
+                        },
+                        Blink: Expression {
+                            extensions: None,
+                            extras: None,
+                            is_binary: Some(
+                                false,
+                            ),
+                            material_color_binds: None,
+                            morph_target_binds: Some(
+                                [
+                                    MorphTargetBind {
+                                        extensions: None,
+                                        extras: None,
+                                        index: 12,
+                                        node: 1,
+                                        weight: 1.0,
+                                    },
+                                ],
+                            ),
+                            override_blink: None,
+                            override_look_at: None,
+                            override_mouth: None,
+                            texture_transform_binds: None,
+                        },
+                        Surprised: Expression {
+                            extensions: None,
+                            extras: None,
+                            is_binary: Some(
+                                false,
+                            ),
+                            material_color_binds: None,
+                            morph_target_binds: Some(
+                                [
+                                    MorphTargetBind {
+                                        extensions: None,
+                                        extras: None,
+                                        index: 5,
+                                        node: 1,
+                                        weight: 1.0,
+                                    },
+                                ],
+                            ),
+                            override_blink: None,
+                            override_look_at: None,
+                            override_mouth: Some(
+                                Blend,
+                            ),
+                            texture_transform_binds: None,
+                        },
+                        Oh: Expression {
+                            extensions: None,
+                            extras: None,
+                            is_binary: Some(
+                                false,
+                            ),
+                            material_color_binds: None,
+                            morph_target_binds: Some(
+                                [
+                                    MorphTargetBind {
+                                        extensions: None,
+                                        extras: None,
+                                        index: 40,
+                                        node: 1,
+                                        weight: 1.0,
+                                    },
+                                ],
+                            ),
+                            override_blink: None,
+                            override_look_at: None,
+                            override_mouth: None,
+                            texture_transform_binds: None,
+                        },
+                        LookLeft: Expression {
+                            extensions: None,
+                            extras: None,
+                            is_binary: Some(
+                                false,
+                            ),
+                            material_color_binds: None,
+                            morph_target_binds: None,
+                            override_blink: None,
+                            override_look_at: None,
+                            override_mouth: None,
+                            texture_transform_binds: None,
+                        },
+                        Ee: Expression {
+                            extensions: None,
+                            extras: None,
+                            is_binary: Some(
+                                false,
+                            ),
+                            material_color_binds: None,
+                            morph_target_binds: Some(
+                                [
+                                    MorphTargetBind {
+                                        extensions: None,
+                                        extras: None,
+                                        index: 39,
+                                        node: 1,
+                                        weight: 1.0,
+                                    },
+                                ],
+                            ),
+                            override_blink: None,
+                            override_look_at: None,
+                            override_mouth: None,
+                            texture_transform_binds: None,
+                        },
+                        Angry: Expression {
+                            extensions: None,
+                            extras: None,
+                            is_binary: Some(
+                                false,
+                            ),
+                            material_color_binds: None,
+                            morph_target_binds: Some(
+                                [
+                                    MorphTargetBind {
+                                        extensions: None,
+                                        extras: None,
+                                        index: 1,
+                                        node: 1,
+                                        weight: 1.0,
+                                    },
+                                ],
+                            ),
+                            override_blink: None,
+                            override_look_at: None,
+                            override_mouth: None,
+                            texture_transform_binds: None,
+                        },
+                        Sad: Expression {
+                            extensions: None,
+                            extras: None,
+                            is_binary: Some(
+                                false,
+                            ),
+                            material_color_binds: None,
+                            morph_target_binds: Some(
+                                [
+                                    MorphTargetBind {
+                                        extensions: None,
+                                        extras: None,
+                                        index: 4,
+                                        node: 1,
+                                        weight: 1.0,
+                                    },
+                                ],
+                            ),
+                            override_blink: None,
+                            override_look_at: None,
+                            override_mouth: Some(
+                                Blend,
+                            ),
+                            texture_transform_binds: None,
+                        },
+                        Neutral: Expression {
+                            extensions: None,
+                            extras: None,
+                            is_binary: Some(
+                                false,
+                            ),
+                            material_color_binds: None,
+                            morph_target_binds: Some(
+                                [
+                                    MorphTargetBind {
+                                        extensions: None,
+                                        extras: None,
+                                        index: 0,
+                                        node: 1,
+                                        weight: 1.0,
+                                    },
+                                ],
+                            ),
+                            override_blink: None,
+                            override_look_at: None,
+                            override_mouth: None,
+                            texture_transform_binds: None,
+                        },
+                        LookDown: Expression {
+                            extensions: None,
+                            extras: None,
+                            is_binary: Some(
+                                false,
+                            ),
+                            material_color_binds: None,
+                            morph_target_binds: None,
+                            override_blink: None,
+                            override_look_at: None,
+                            override_mouth: None,
+                            texture_transform_binds: None,
+                        },
+                        BlinkRight: Expression {
+                            extensions: None,
+                            extras: None,
+                            is_binary: Some(
+                                false,
+                            ),
+                            material_color_binds: None,
+                            morph_target_binds: Some(
+                                [
+                                    MorphTargetBind {
+                                        extensions: None,
+                                        extras: None,
+                                        index: 14,
+                                        node: 1,
+                                        weight: 1.0,
+                                    },
+                                ],
+                            ),
+                            override_blink: None,
+                            override_look_at: None,
+                            override_mouth: None,
+                            texture_transform_binds: None,
+                        },
+                    },
+                ),
+            ),
+        },
+    ),
+    extensions: None,
+    extras: None,
+    first_person: Some(
+        FirstPerson {
+            extensions: None,
+            extras: None,
+            mesh_annotations: Some(
+                [
+                    MeshAnnotation {
+                        extensions: None,
+                        extras: None,
+                        node: Some(
+                            0,
+                        ),
+                        mesh_annotation_type: Auto,
+                    },
+                    MeshAnnotation {
+                        extensions: None,
+                        extras: None,
+                        node: Some(
+                            1,
+                        ),
+                        mesh_annotation_type: Auto,
+                    },
+                    MeshAnnotation {
+                        extensions: None,
+                        extras: None,
+                        node: Some(
+                            2,
+                        ),
+                        mesh_annotation_type: Auto,
+                    },
+                ],
+            ),
+        },
+    ),
+    humanoid: Humanoid {
+        extensions: None,
+        extras: None,
+        human_bones: HumanBones(
+            {
+                Chest: Some(
+                    HumanBone {
+                        extensions: None,
+                        extras: None,
+                        node: Some(
+                            22,
+                        ),
+                    },
+                ),
+                LeftRingIntermediate: Some(
+                    HumanBone {
+                        extensions: None,
+                        extras: None,
+                        node: Some(
+                            112,
+                        ),
+                    },
+                ),
+                RightShoulder: Some(
+                    HumanBone {
+                        extensions: None,
+                        extras: None,
+                        node: Some(
+                            122,
+                        ),
+                    },
+                ),
+                RightLowerArm: Some(
+                    HumanBone {
+                        extensions: None,
+                        extras: None,
+                        node: Some(
+                            131,
+                        ),
+                    },
+                ),
+                LeftLittleIntermediate: Some(
+                    HumanBone {
+                        extensions: None,
+                        extras: None,
+                        node: Some(
+                            104,
+                        ),
+                    },
+                ),
+                RightFoot: Some(
+                    HumanBone {
+                        extensions: None,
+                        extras: None,
+                        node: Some(
+                            167,
+                        ),
+                    },
+                ),
+                RightThumbProximal: Some(
+                    HumanBone {
+                        extensions: None,
+                        extras: None,
+                        node: Some(
+                            150,
+                        ),
+                    },
+                ),
+                LeftThumbDistal: Some(
+                    HumanBone {
+                        extensions: None,
+                        extras: None,
+                        node: Some(
+                            117,
+                        ),
+                    },
+                ),
+                RightMiddleIntermediate: Some(
+                    HumanBone {
+                        extensions: None,
+                        extras: None,
+                        node: Some(
+                            142,
+                        ),
+                    },
+                ),
+                LeftLowerLeg: Some(
+                    HumanBone {
+                        extensions: None,
+                        extras: None,
+                        node: Some(
+                            161,
+                        ),
+                    },
+                ),
+                RightIndexIntermediate: Some(
+                    HumanBone {
+                        extensions: None,
+                        extras: None,
+                        node: Some(
+                            134,
+                        ),
+                    },
+                ),
+                LeftHand: Some(
+                    HumanBone {
+                        extensions: None,
+                        extras: None,
+                        node: Some(
+                            98,
+                        ),
+                    },
+                ),
+                RightUpperLeg: Some(
+                    HumanBone {
+                        extensions: None,
+                        extras: None,
+                        node: Some(
+                            165,
+                        ),
+                    },
+                ),
+                LeftToes: Some(
+                    HumanBone {
+                        extensions: None,
+                        extras: None,
+                        node: Some(
+                            163,
+                        ),
+                    },
+                ),
+                LeftMiddleProximal: Some(
+                    HumanBone {
+                        extensions: None,
+                        extras: None,
+                        node: Some(
+                            107,
+                        ),
+                    },
+                ),
+                RightRingIntermediate: Some(
+                    HumanBone {
+                        extensions: None,
+                        extras: None,
+                        node: Some(
+                            146,
+                        ),
+                    },
+                ),
+                RightLittleIntermediate: Some(
+                    HumanBone {
+                        extensions: None,
+                        extras: None,
+                        node: Some(
+                            138,
+                        ),
+                    },
+                ),
+                LeftIndexProximal: Some(
+                    HumanBone {
+                        extensions: None,
+                        extras: None,
+                        node: Some(
+                            99,
+                        ),
+                    },
+                ),
+                Head: Some(
+                    HumanBone {
+                        extensions: None,
+                        extras: None,
+                        node: Some(
+                            25,
+                        ),
+                    },
+                ),
+                Neck: Some(
+                    HumanBone {
+                        extensions: None,
+                        extras: None,
+                        node: Some(
+                            24,
+                        ),
+                    },
+                ),
+                LeftRingProximal: Some(
+                    HumanBone {
+                        extensions: None,
+                        extras: None,
+                        node: Some(
+                            111,
+                        ),
+                    },
+                ),
+                RightThumbDistal: Some(
+                    HumanBone {
+                        extensions: None,
+                        extras: None,
+                        node: Some(
+                            151,
+                        ),
+                    },
+                ),
+                RightLowerLeg: Some(
+                    HumanBone {
+                        extensions: None,
+                        extras: None,
+                        node: Some(
+                            166,
+                        ),
+                    },
+                ),
+                LeftLittleProximal: Some(
+                    HumanBone {
+                        extensions: None,
+                        extras: None,
+                        node: Some(
+                            103,
+                        ),
+                    },
+                ),
+                LeftEye: Some(
+                    HumanBone {
+                        extensions: None,
+                        extras: None,
+                        node: Some(
+                            26,
+                        ),
+                    },
+                ),
+                RightHand: Some(
+                    HumanBone {
+                        extensions: None,
+                        extras: None,
+                        node: Some(
+                            132,
+                        ),
+                    },
+                ),
+                LeftThumbMetacarpal: Some(
+                    HumanBone {
+                        extensions: None,
+                        extras: None,
+                        node: Some(
+                            115,
+                        ),
+                    },
+                ),
+                RightToes: Some(
+                    HumanBone {
+                        extensions: None,
+                        extras: None,
+                        node: Some(
+                            168,
+                        ),
+                    },
+                ),
+                RightMiddleProximal: Some(
+                    HumanBone {
+                        extensions: None,
+                        extras: None,
+                        node: Some(
+                            141,
+                        ),
+                    },
+                ),
+                LeftMiddleDistal: Some(
+                    HumanBone {
+                        extensions: None,
+                        extras: None,
+                        node: Some(
+                            109,
+                        ),
+                    },
+                ),
+                LeftIndexDistal: Some(
+                    HumanBone {
+                        extensions: None,
+                        extras: None,
+                        node: Some(
+                            101,
+                        ),
+                    },
+                ),
+                RightIndexProximal: Some(
+                    HumanBone {
+                        extensions: None,
+                        extras: None,
+                        node: Some(
+                            133,
+                        ),
+                    },
+                ),
+                LeftUpperArm: Some(
+                    HumanBone {
+                        extensions: None,
+                        extras: None,
+                        node: Some(
+                            96,
+                        ),
+                    },
+                ),
+                Spine: Some(
+                    HumanBone {
+                        extensions: None,
+                        extras: None,
+                        node: Some(
+                            21,
+                        ),
+                    },
+                ),
+                RightRingProximal: Some(
+                    HumanBone {
+                        extensions: None,
+                        extras: None,
+                        node: Some(
+                            145,
+                        ),
+                    },
+                ),
+                LeftRingDistal: Some(
+                    HumanBone {
+                        extensions: None,
+                        extras: None,
+                        node: Some(
+                            113,
+                        ),
+                    },
+                ),
+                LeftLittleDistal: Some(
+                    HumanBone {
+                        extensions: None,
+                        extras: None,
+                        node: Some(
+                            105,
+                        ),
+                    },
+                ),
+                RightLittleProximal: Some(
+                    HumanBone {
+                        extensions: None,
+                        extras: None,
+                        node: Some(
+                            137,
+                        ),
+                    },
+                ),
+                RightEye: Some(
+                    HumanBone {
+                        extensions: None,
+                        extras: None,
+                        node: Some(
+                            27,
+                        ),
+                    },
+                ),
+                Hips: Some(
+                    HumanBone {
+                        extensions: None,
+                        extras: None,
+                        node: Some(
+                            4,
+                        ),
+                    },
+                ),
+                RightThumbMetacarpal: Some(
+                    HumanBone {
+                        extensions: None,
+                        extras: None,
+                        node: Some(
+                            149,
+                        ),
+                    },
+                ),
+                LeftShoulder: Some(
+                    HumanBone {
+                        extensions: None,
+                        extras: None,
+                        node: Some(
+                            88,
+                        ),
+                    },
+                ),
+                LeftLowerArm: Some(
+                    HumanBone {
+                        extensions: None,
+                        extras: None,
+                        node: Some(
+                            97,
+                        ),
+                    },
+                ),
+                RightMiddleDistal: Some(
+                    HumanBone {
+                        extensions: None,
+                        extras: None,
+                        node: Some(
+                            143,
+                        ),
+                    },
+                ),
+                RightIndexDistal: Some(
+                    HumanBone {
+                        extensions: None,
+                        extras: None,
+                        node: Some(
+                            135,
+                        ),
+                    },
+                ),
+                LeftFoot: Some(
+                    HumanBone {
+                        extensions: None,
+                        extras: None,
+                        node: Some(
+                            162,
+                        ),
+                    },
+                ),
+                RightUpperArm: Some(
+                    HumanBone {
+                        extensions: None,
+                        extras: None,
+                        node: Some(
+                            130,
+                        ),
+                    },
+                ),
+                LeftThumbProximal: Some(
+                    HumanBone {
+                        extensions: None,
+                        extras: None,
+                        node: Some(
+                            116,
+                        ),
+                    },
+                ),
+                LeftMiddleIntermediate: Some(
+                    HumanBone {
+                        extensions: None,
+                        extras: None,
+                        node: Some(
+                            108,
+                        ),
+                    },
+                ),
+                RightRingDistal: Some(
+                    HumanBone {
+                        extensions: None,
+                        extras: None,
+                        node: Some(
+                            147,
+                        ),
+                    },
+                ),
+                RightLittleDistal: Some(
+                    HumanBone {
+                        extensions: None,
+                        extras: None,
+                        node: Some(
+                            139,
+                        ),
+                    },
+                ),
+                LeftIndexIntermediate: Some(
+                    HumanBone {
+                        extensions: None,
+                        extras: None,
+                        node: Some(
+                            100,
+                        ),
+                    },
+                ),
+                UpperChest: Some(
+                    HumanBone {
+                        extensions: None,
+                        extras: None,
+                        node: Some(
+                            23,
+                        ),
+                    },
+                ),
+                LeftUpperLeg: Some(
+                    HumanBone {
+                        extensions: None,
+                        extras: None,
+                        node: Some(
+                            160,
+                        ),
+                    },
+                ),
+            },
+        ),
+    },
+    look_at: Some(
+        LookAt {
+            extensions: None,
+            extras: None,
+            offset_from_head_bone: Some(
+                [
+                    0.059,
+                    0.061,
+                    0.0,
+                ],
+            ),
+            range_map_horizontal_inner: Some(
+                LookAtRangeMap {
+                    extensions: None,
+                    extras: None,
+                    input_max_value: Some(
+                        90.0,
+                    ),
+                    output_scale: Some(
+                        10.0,
+                    ),
+                },
+            ),
+            range_map_horizontal_outer: Some(
+                LookAtRangeMap {
+                    extensions: None,
+                    extras: None,
+                    input_max_value: Some(
+                        90.0,
+                    ),
+                    output_scale: Some(
+                        10.0,
+                    ),
+                },
+            ),
+            range_map_vertical_down: Some(
+                LookAtRangeMap {
+                    extensions: None,
+                    extras: None,
+                    input_max_value: Some(
+                        90.0,
+                    ),
+                    output_scale: Some(
+                        10.0,
+                    ),
+                },
+            ),
+            range_map_vertical_up: Some(
+                LookAtRangeMap {
+                    extensions: None,
+                    extras: None,
+                    input_max_value: Some(
+                        90.0,
+                    ),
+                    output_scale: Some(
+                        10.0,
+                    ),
+                },
+            ),
+            look_at_type: Some(
+                Bone,
+            ),
+        },
+    ),
+    meta: Meta {
+        allow_antisocial_or_hate_usage: Some(
+            false,
+        ),
+        allow_excessively_sexual_usage: Some(
+            true,
+        ),
+        allow_excessively_violent_usage: Some(
+            true,
+        ),
+        allow_political_or_religious_usage: Some(
+            true,
+        ),
+        allow_redistribution: Some(
+            true,
+        ),
+        authors: [
+            "pixiv Inc.",
+        ],
+        avatar_permission: Some(
+            Everyone,
+        ),
+        commercial_usage: Some(
+            Corporation,
+        ),
+        contact_information: None,
+        copyright_information: Some(
+            "(c) 2022 pixiv Inc.",
+        ),
+        credit_notation: Some(
+            Unnecessary,
+        ),
+        extensions: None,
+        extras: None,
+        license_url: "https://vrm.dev/licenses/1.0/",
+        modification: Some(
+            AllowModificationRedistribution,
+        ),
+        name: "VRM1_Constraint_Twist_Sample",
+        other_license_url: None,
+        references: None,
+        third_party_licenses: None,
+        thumbnail_image: Some(
+            18,
+        ),
+        version: Some(
+            "v1.0.1",
+        ),
+    },
+    spec_version: "1.0",
+}
