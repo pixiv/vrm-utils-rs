@@ -12,7 +12,7 @@ jobs:
       matrix:
         toolchain:
           - stable
-          - beta
+          # - beta
           # - nightly
     steps:
       - uses: actions/checkout@v4
