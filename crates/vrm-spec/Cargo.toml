@@ -6,7 +6,7 @@ edition.workspace = true
 license = "Apache-2.0"
 name = "vrm-spec"
 readme = "README.md"
-repository = "https://github.com/pixiv/vrm-spec"
+repository = "https://github.com/pixiv/vrm-utils-rs/tree/main/crates/vrm-spec"
 rust-version.workspace = true
 version = "0.0.1"
 
