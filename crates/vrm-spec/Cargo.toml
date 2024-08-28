@@ -8,7 +8,7 @@ name = "vrm-spec"
 readme = "README.md"
 repository = "https://github.com/pixiv/vrm-utils-rs/tree/main/crates/vrm-spec"
 rust-version.workspace = true
-version = "0.0.2"
+version = "0.0.3"
 
 [dependencies]
 gltf = {workspace = true, features = ["utils", "extensions"], optional = true}
