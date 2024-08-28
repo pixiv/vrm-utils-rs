@@ -46,3 +46,18 @@ where
         }),
     )))
 }
+
+// NOTE: tmp fix for some VRMs that have float_properties value set to null
+pub(crate) fn deserialize_option_map_and_skip_nullable<'de, D, K, V>(
+    deserializer: D,
+) -> Result<Option<HashMap<K, V>>, D::Error>
+where
+    K: Eq + std::hash::Hash + Deserialize<'de>,
+    V: Deserialize<'de>,
+    D: Deserializer<'de>,
+{
+    let map = HashMap::<K, Option<V>>::deserialize(deserializer)?;
+    Ok(Some(HashMap::<K, V>::from_iter(
+        map.into_iter().filter_map(|(k, v)| v.map(|v| (k, v))),
+    )))
+}

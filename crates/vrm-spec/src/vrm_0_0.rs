@@ -9,7 +9,10 @@ use serde::{Deserialize, Serialize};
 #[cfg(not(feature = "rustc_hash"))]
 use std::collections::HashMap;
 
-use crate::serde_utils::{deserialize_option_index, deserialize_option_map_index};
+use crate::serde_utils::{
+    deserialize_option_index, deserialize_option_map_and_skip_nullable,
+    deserialize_option_map_index,
+};
 
 /// VRM extension is for 3d humanoid avatars (and models) in VR applications.
 #[derive(Debug, Clone, Serialize, Deserialize)]
@@ -291,7 +294,10 @@ pub type Min = OptionalVector3;
 #[derive(Debug, Clone, Serialize, Deserialize)]
 #[serde(rename_all = "camelCase")]
 pub struct VRMMaterial {
-    #[serde(skip_serializing_if = "Option::is_none")]
+    #[serde(
+        skip_serializing_if = "Option::is_none",
+        deserialize_with = "deserialize_option_map_and_skip_nullable::<_, String, f64>"
+    )]
     pub float_properties: Option<HashMap<String, f64>>,
 
     #[serde(skip_serializing_if = "Option::is_none")]
