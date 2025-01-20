@@ -1,4 +1,4 @@
-/// This mod handles common issues when using VRMs.
+//! This mod handles common issues when using VRMs.
 
 #[cfg(feature = "rustc_hash")]
 use rustc_hash::FxHashMap as HashMap;
