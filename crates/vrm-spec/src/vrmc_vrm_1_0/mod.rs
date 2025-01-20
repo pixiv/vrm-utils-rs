@@ -120,7 +120,7 @@ pub struct MaterialColorBind {
     /// target color
     pub target_value: Vec<f64>,
 
-    pub material_color_bind_type: MaterialColorType,
+    pub r#type: MaterialColorType,
 }
 
 /// Morph target value associated with a expression
