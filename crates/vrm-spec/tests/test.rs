@@ -1,4 +1,4 @@
-use vrm_spec::{vrm_0_0, vrmc_spring_bone_1_0, vrmc_vrm_1_0};
+use vrm_spec::{vrm_0_0, vrmc_spring_bone_1_0, vrmc_vrm_1_0, vrmc_vrm_animation_1_0};
 
 #[test]
 fn test_vrm0() {
@@ -28,4 +28,18 @@ fn test_vrm1() {
         serde_json::from_value(value.to_owned()).expect("ok");
 
     insta::assert_debug_snapshot!(vrmc_spring_bone);
+}
+
+#[test]
+fn test_vrm_animation() {
+    let file = include_bytes!("../../../fixtures/test.vrma");
+    let (doc, _, _) = gltf::import_slice(file).expect("ok");
+    let value = doc
+        .extension_value(vrmc_vrm_animation_1_0::VRMC_VRM_ANIMATION)
+        .expect("exist");
+
+    let vrmc_vrm_animation: vrmc_vrm_animation_1_0::VrmcVrmAnimationSchema =
+        serde_json::from_value(value.to_owned()).expect("ok");
+
+    insta::assert_debug_snapshot!(vrmc_vrm_animation);
 }

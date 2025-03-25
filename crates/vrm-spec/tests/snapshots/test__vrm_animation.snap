@@ -1,0 +1,509 @@
+---
+source: crates/vrm-spec/tests/test.rs
+assertion_line: 44
+expression: vrmc_vrm_animation
+---
+VrmcVrmAnimationSchema {
+    spec_version: "1.0",
+    humanoid: Some(
+        Humanoid {
+            human_bones: HumanBones(
+                {
+                    Chest: Some(
+                        HumanBone {
+                            node: Some(
+                                2,
+                            ),
+                            extensions: None,
+                            extras: None,
+                        },
+                    ),
+                    LeftRingIntermediate: Some(
+                        HumanBone {
+                            node: Some(
+                                19,
+                            ),
+                            extensions: None,
+                            extras: None,
+                        },
+                    ),
+                    RightShoulder: Some(
+                        HumanBone {
+                            node: Some(
+                                24,
+                            ),
+                            extensions: None,
+                            extras: None,
+                        },
+                    ),
+                    RightLowerArm: Some(
+                        HumanBone {
+                            node: Some(
+                                26,
+                            ),
+                            extensions: None,
+                            extras: None,
+                        },
+                    ),
+                    LeftLittleIntermediate: Some(
+                        HumanBone {
+                            node: Some(
+                                22,
+                            ),
+                            extensions: None,
+                            extras: None,
+                        },
+                    ),
+                    RightFoot: Some(
+                        HumanBone {
+                            node: Some(
+                                49,
+                            ),
+                            extensions: None,
+                            extras: None,
+                        },
+                    ),
+                    RightThumbProximal: Some(
+                        HumanBone {
+                            node: Some(
+                                29,
+                            ),
+                            extensions: None,
+                            extras: None,
+                        },
+                    ),
+                    LeftThumbDistal: Some(
+                        HumanBone {
+                            node: Some(
+                                11,
+                            ),
+                            extensions: None,
+                            extras: None,
+                        },
+                    ),
+                    RightMiddleIntermediate: Some(
+                        HumanBone {
+                            node: Some(
+                                35,
+                            ),
+                            extensions: None,
+                            extras: None,
+                        },
+                    ),
+                    LeftLowerLeg: Some(
+                        HumanBone {
+                            node: Some(
+                                44,
+                            ),
+                            extensions: None,
+                            extras: None,
+                        },
+                    ),
+                    RightIndexIntermediate: Some(
+                        HumanBone {
+                            node: Some(
+                                32,
+                            ),
+                            extensions: None,
+                            extras: None,
+                        },
+                    ),
+                    LeftHand: Some(
+                        HumanBone {
+                            node: Some(
+                                8,
+                            ),
+                            extensions: None,
+                            extras: None,
+                        },
+                    ),
+                    RightUpperLeg: Some(
+                        HumanBone {
+                            node: Some(
+                                47,
+                            ),
+                            extensions: None,
+                            extras: None,
+                        },
+                    ),
+                    LeftToes: Some(
+                        HumanBone {
+                            node: Some(
+                                46,
+                            ),
+                            extensions: None,
+                            extras: None,
+                        },
+                    ),
+                    LeftMiddleProximal: Some(
+                        HumanBone {
+                            node: Some(
+                                15,
+                            ),
+                            extensions: None,
+                            extras: None,
+                        },
+                    ),
+                    RightRingIntermediate: Some(
+                        HumanBone {
+                            node: Some(
+                                38,
+                            ),
+                            extensions: None,
+                            extras: None,
+                        },
+                    ),
+                    RightLittleIntermediate: Some(
+                        HumanBone {
+                            node: Some(
+                                41,
+                            ),
+                            extensions: None,
+                            extras: None,
+                        },
+                    ),
+                    LeftIndexProximal: Some(
+                        HumanBone {
+                            node: Some(
+                                12,
+                            ),
+                            extensions: None,
+                            extras: None,
+                        },
+                    ),
+                    Head: Some(
+                        HumanBone {
+                            node: Some(
+                                4,
+                            ),
+                            extensions: None,
+                            extras: None,
+                        },
+                    ),
+                    Neck: Some(
+                        HumanBone {
+                            node: Some(
+                                3,
+                            ),
+                            extensions: None,
+                            extras: None,
+                        },
+                    ),
+                    LeftRingProximal: Some(
+                        HumanBone {
+                            node: Some(
+                                18,
+                            ),
+                            extensions: None,
+                            extras: None,
+                        },
+                    ),
+                    RightThumbDistal: Some(
+                        HumanBone {
+                            node: Some(
+                                30,
+                            ),
+                            extensions: None,
+                            extras: None,
+                        },
+                    ),
+                    RightLowerLeg: Some(
+                        HumanBone {
+                            node: Some(
+                                48,
+                            ),
+                            extensions: None,
+                            extras: None,
+                        },
+                    ),
+                    LeftLittleProximal: Some(
+                        HumanBone {
+                            node: Some(
+                                21,
+                            ),
+                            extensions: None,
+                            extras: None,
+                        },
+                    ),
+                    RightHand: Some(
+                        HumanBone {
+                            node: Some(
+                                27,
+                            ),
+                            extensions: None,
+                            extras: None,
+                        },
+                    ),
+                    LeftThumbMetacarpal: Some(
+                        HumanBone {
+                            node: Some(
+                                9,
+                            ),
+                            extensions: None,
+                            extras: None,
+                        },
+                    ),
+                    RightToes: Some(
+                        HumanBone {
+                            node: Some(
+                                50,
+                            ),
+                            extensions: None,
+                            extras: None,
+                        },
+                    ),
+                    RightMiddleProximal: Some(
+                        HumanBone {
+                            node: Some(
+                                34,
+                            ),
+                            extensions: None,
+                            extras: None,
+                        },
+                    ),
+                    LeftMiddleDistal: Some(
+                        HumanBone {
+                            node: Some(
+                                17,
+                            ),
+                            extensions: None,
+                            extras: None,
+                        },
+                    ),
+                    LeftIndexDistal: Some(
+                        HumanBone {
+                            node: Some(
+                                14,
+                            ),
+                            extensions: None,
+                            extras: None,
+                        },
+                    ),
+                    RightIndexProximal: Some(
+                        HumanBone {
+                            node: Some(
+                                31,
+                            ),
+                            extensions: None,
+                            extras: None,
+                        },
+                    ),
+                    LeftUpperArm: Some(
+                        HumanBone {
+                            node: Some(
+                                6,
+                            ),
+                            extensions: None,
+                            extras: None,
+                        },
+                    ),
+                    Spine: Some(
+                        HumanBone {
+                            node: Some(
+                                1,
+                            ),
+                            extensions: None,
+                            extras: None,
+                        },
+                    ),
+                    RightRingProximal: Some(
+                        HumanBone {
+                            node: Some(
+                                37,
+                            ),
+                            extensions: None,
+                            extras: None,
+                        },
+                    ),
+                    LeftRingDistal: Some(
+                        HumanBone {
+                            node: Some(
+                                20,
+                            ),
+                            extensions: None,
+                            extras: None,
+                        },
+                    ),
+                    LeftLittleDistal: Some(
+                        HumanBone {
+                            node: Some(
+                                23,
+                            ),
+                            extensions: None,
+                            extras: None,
+                        },
+                    ),
+                    RightLittleProximal: Some(
+                        HumanBone {
+                            node: Some(
+                                40,
+                            ),
+                            extensions: None,
+                            extras: None,
+                        },
+                    ),
+                    Hips: Some(
+                        HumanBone {
+                            node: Some(
+                                0,
+                            ),
+                            extensions: None,
+                            extras: None,
+                        },
+                    ),
+                    RightThumbMetacarpal: Some(
+                        HumanBone {
+                            node: Some(
+                                28,
+                            ),
+                            extensions: None,
+                            extras: None,
+                        },
+                    ),
+                    LeftShoulder: Some(
+                        HumanBone {
+                            node: Some(
+                                5,
+                            ),
+                            extensions: None,
+                            extras: None,
+                        },
+                    ),
+                    LeftLowerArm: Some(
+                        HumanBone {
+                            node: Some(
+                                7,
+                            ),
+                            extensions: None,
+                            extras: None,
+                        },
+                    ),
+                    RightMiddleDistal: Some(
+                        HumanBone {
+                            node: Some(
+                                36,
+                            ),
+                            extensions: None,
+                            extras: None,
+                        },
+                    ),
+                    RightIndexDistal: Some(
+                        HumanBone {
+                            node: Some(
+                                33,
+                            ),
+                            extensions: None,
+                            extras: None,
+                        },
+                    ),
+                    LeftFoot: Some(
+                        HumanBone {
+                            node: Some(
+                                45,
+                            ),
+                            extensions: None,
+                            extras: None,
+                        },
+                    ),
+                    RightUpperArm: Some(
+                        HumanBone {
+                            node: Some(
+                                25,
+                            ),
+                            extensions: None,
+                            extras: None,
+                        },
+                    ),
+                    LeftThumbProximal: Some(
+                        HumanBone {
+                            node: Some(
+                                10,
+                            ),
+                            extensions: None,
+                            extras: None,
+                        },
+                    ),
+                    LeftMiddleIntermediate: Some(
+                        HumanBone {
+                            node: Some(
+                                16,
+                            ),
+                            extensions: None,
+                            extras: None,
+                        },
+                    ),
+                    RightRingDistal: Some(
+                        HumanBone {
+                            node: Some(
+                                39,
+                            ),
+                            extensions: None,
+                            extras: None,
+                        },
+                    ),
+                    RightLittleDistal: Some(
+                        HumanBone {
+                            node: Some(
+                                42,
+                            ),
+                            extensions: None,
+                            extras: None,
+                        },
+                    ),
+                    LeftIndexIntermediate: Some(
+                        HumanBone {
+                            node: Some(
+                                13,
+                            ),
+                            extensions: None,
+                            extras: None,
+                        },
+                    ),
+                    LeftUpperLeg: Some(
+                        HumanBone {
+                            node: Some(
+                                43,
+                            ),
+                            extensions: None,
+                            extras: None,
+                        },
+                    ),
+                },
+            ),
+            extensions: None,
+            extras: None,
+        },
+    ),
+    expressions: Some(
+        Expressions {
+            preset: Some(
+                Preset(
+                    {
+                        Happy: Expression {
+                            node: Some(
+                                51,
+                            ),
+                            extensions: None,
+                            extras: None,
+                        },
+                    },
+                ),
+            ),
+            custom: None,
+            extensions: None,
+            extras: None,
+        },
+    ),
+    look_at: Some(
+        LookAt {
+            node: Some(
+                52,
+            ),
+            offset_from_head_bone: None,
+            extensions: None,
+            extras: None,
+        },
+    ),
+    extensions: None,
+    extras: None,
+}
