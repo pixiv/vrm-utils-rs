@@ -18,15 +18,15 @@ pub struct VrmcVrmAnimationSchema {
 
     /// An object which describes about humanoid bones.
     #[serde(skip_serializing_if = "Option::is_none")]
-    pub humanoid: Option<Humanoid>,
+    pub humanoid: Option<VrmcVrmAnimationHumanoid>,
 
     /// An object which maps expressions to nodes.
     #[serde(skip_serializing_if = "Option::is_none")]
-    pub expressions: Option<Expressions>,
+    pub expressions: Option<VrmcVrmAnimationExpressions>,
 
     /// An object which maps a eye gaze point to a node.
     #[serde(skip_serializing_if = "Option::is_none")]
-    pub look_at: Option<LookAt>,
+    pub look_at: Option<VrmcVrmAnimationLookAt>,
 
     #[serde(skip_serializing_if = "Option::is_none")]
     pub extensions: Option<HashMap<String, HashMap<String, Option<serde_json::Value>>>>,
@@ -38,9 +38,9 @@ pub struct VrmcVrmAnimationSchema {
 /// An object which describes about humanoid bones.
 #[derive(Debug, Clone, Serialize, Deserialize)]
 #[serde(rename_all = "camelCase")]
-pub struct Humanoid {
+pub struct VrmcVrmAnimationHumanoid {
     /// An object which maps humanoid bones to nodes.
-    pub human_bones: HumanBones,
+    pub human_bones: VrmcVrmAnimationHumanBones,
 
     #[serde(skip_serializing_if = "Option::is_none")]
     pub extensions: Option<HashMap<String, HashMap<String, Option<serde_json::Value>>>>,
@@ -52,11 +52,13 @@ pub struct Humanoid {
 /// Represents a set of humanBones of a humanoid.
 // FIXME: all bones are optional by now
 #[derive(Debug, Clone, Serialize, Deserialize)]
-pub struct HumanBones(pub HashMap<crate::vrmc_vrm_1_0::HumanBoneName, Option<HumanBone>>);
+pub struct VrmcVrmAnimationHumanBones(
+    pub HashMap<crate::vrmc_vrm_1_0::HumanBoneName, Option<VrmcVrmAnimationHumanBone>>,
+);
 
 /// Represents a single bone of a Humanoid.
 #[derive(Debug, Clone, Serialize, Deserialize)]
-pub struct HumanBone {
+pub struct VrmcVrmAnimationHumanBone {
     /// Represents a single glTF node tied to this humanBone.
     #[cfg(feature = "gltf_index")]
     #[serde(skip_serializing_if = "Option::is_none")]
@@ -74,14 +76,14 @@ pub struct HumanBone {
 
 /// An object which maps expressions to nodes.
 #[derive(Debug, Clone, Serialize, Deserialize)]
-pub struct Expressions {
+pub struct VrmcVrmAnimationExpressions {
     /// An object that contains definitions of preset expressions.
     #[serde(skip_serializing_if = "Option::is_none")]
-    pub preset: Option<Preset>,
+    pub preset: Option<VrmcVrmAnimationExpressionPreset>,
 
     /// An object that contains definitions of custom expressions.
     #[serde(skip_serializing_if = "Option::is_none")]
-    pub custom: Option<HashMap<String, Expression>>,
+    pub custom: Option<HashMap<String, VrmcVrmAnimationExpression>>,
 
     #[serde(skip_serializing_if = "Option::is_none")]
     pub extensions: Option<HashMap<String, HashMap<String, Option<serde_json::Value>>>>,
@@ -92,11 +94,13 @@ pub struct Expressions {
 
 /// An object that contains definitions of preset expressions.
 #[derive(Debug, Clone, Serialize, Deserialize)]
-pub struct Preset(pub HashMap<crate::vrmc_vrm_1_0::ExpressionPresetName, Expression>);
+pub struct VrmcVrmAnimationExpressionPreset(
+    pub HashMap<crate::vrmc_vrm_1_0::ExpressionPresetName, VrmcVrmAnimationExpression>,
+);
 
 /// Represents a single expression.
 #[derive(Debug, Clone, Serialize, Deserialize)]
-pub struct Expression {
+pub struct VrmcVrmAnimationExpression {
     /// Represents a single glTF node mapped to this expression.
     #[cfg(feature = "gltf_index")]
     #[serde(skip_serializing_if = "Option::is_none")]
@@ -115,7 +119,7 @@ pub struct Expression {
 /// An object which maps a eye gaze point to a node.
 #[derive(Debug, Clone, Serialize, Deserialize)]
 #[serde(rename_all = "camelCase")]
-pub struct LookAt {
+pub struct VrmcVrmAnimationLookAt {
     /// Represents a single glTF node represents the eye gaze point.
     #[cfg(feature = "gltf_index")]
     #[serde(skip_serializing_if = "Option::is_none")]
