@@ -38,7 +38,7 @@ fn test_vrm_animation() {
         .extension_value(vrmc_vrm_animation_1_0::VRMC_VRM_ANIMATION)
         .expect("exist");
 
-    let vrmc_vrm_animation: vrmc_vrm_animation_1_0::VrmcVrmAnimationSchema =
+    let vrmc_vrm_animation: vrmc_vrm_animation_1_0::VRMCVrmAnimationSchema =
         serde_json::from_value(value.to_owned()).expect("ok");
 
     insta::assert_debug_snapshot!(vrmc_vrm_animation);
