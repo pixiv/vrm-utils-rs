@@ -49,12 +49,10 @@ pub struct Humanoid {
     pub extras: Option<serde_json::Value>,
 }
 
-
 /// Represents a set of humanBones of a humanoid.
 // FIXME: all bones are optional by now
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct HumanBones(pub HashMap<crate::vrmc_vrm_1_0::HumanBoneName, Option<HumanBone>>);
-
 
 /// Represents a single bone of a Humanoid.
 #[derive(Debug, Clone, Serialize, Deserialize)]
