@@ -6,11 +6,11 @@ expression: vrmc_vrm_animation
 VrmcVrmAnimationSchema {
     spec_version: "1.0",
     humanoid: Some(
-        Humanoid {
-            human_bones: HumanBones(
+        VrmcVrmAnimationHumanoid {
+            human_bones: VrmcVrmAnimationHumanBones(
                 {
                     Chest: Some(
-                        HumanBone {
+                        VrmcVrmAnimationHumanBone {
                             node: Some(
                                 2,
                             ),
@@ -19,7 +19,7 @@ VrmcVrmAnimationSchema {
                         },
                     ),
                     LeftRingIntermediate: Some(
-                        HumanBone {
+                        VrmcVrmAnimationHumanBone {
                             node: Some(
                                 19,
                             ),
@@ -28,7 +28,7 @@ VrmcVrmAnimationSchema {
                         },
                     ),
                     RightShoulder: Some(
-                        HumanBone {
+                        VrmcVrmAnimationHumanBone {
                             node: Some(
                                 24,
                             ),
@@ -37,7 +37,7 @@ VrmcVrmAnimationSchema {
                         },
                     ),
                     RightLowerArm: Some(
-                        HumanBone {
+                        VrmcVrmAnimationHumanBone {
                             node: Some(
                                 26,
                             ),
@@ -46,7 +46,7 @@ VrmcVrmAnimationSchema {
                         },
                     ),
                     LeftLittleIntermediate: Some(
-                        HumanBone {
+                        VrmcVrmAnimationHumanBone {
                             node: Some(
                                 22,
                             ),
@@ -55,7 +55,7 @@ VrmcVrmAnimationSchema {
                         },
                     ),
                     RightFoot: Some(
-                        HumanBone {
+                        VrmcVrmAnimationHumanBone {
                             node: Some(
                                 49,
                             ),
@@ -64,7 +64,7 @@ VrmcVrmAnimationSchema {
                         },
                     ),
                     RightThumbProximal: Some(
-                        HumanBone {
+                        VrmcVrmAnimationHumanBone {
                             node: Some(
                                 29,
                             ),
@@ -73,7 +73,7 @@ VrmcVrmAnimationSchema {
                         },
                     ),
                     LeftThumbDistal: Some(
-                        HumanBone {
+                        VrmcVrmAnimationHumanBone {
                             node: Some(
                                 11,
                             ),
@@ -82,7 +82,7 @@ VrmcVrmAnimationSchema {
                         },
                     ),
                     RightMiddleIntermediate: Some(
-                        HumanBone {
+                        VrmcVrmAnimationHumanBone {
                             node: Some(
                                 35,
                             ),
@@ -91,7 +91,7 @@ VrmcVrmAnimationSchema {
                         },
                     ),
                     LeftLowerLeg: Some(
-                        HumanBone {
+                        VrmcVrmAnimationHumanBone {
                             node: Some(
                                 44,
                             ),
@@ -100,7 +100,7 @@ VrmcVrmAnimationSchema {
                         },
                     ),
                     RightIndexIntermediate: Some(
-                        HumanBone {
+                        VrmcVrmAnimationHumanBone {
                             node: Some(
                                 32,
                             ),
@@ -109,7 +109,7 @@ VrmcVrmAnimationSchema {
                         },
                     ),
                     LeftHand: Some(
-                        HumanBone {
+                        VrmcVrmAnimationHumanBone {
                             node: Some(
                                 8,
                             ),
@@ -118,7 +118,7 @@ VrmcVrmAnimationSchema {
                         },
                     ),
                     RightUpperLeg: Some(
-                        HumanBone {
+                        VrmcVrmAnimationHumanBone {
                             node: Some(
                                 47,
                             ),
@@ -127,7 +127,7 @@ VrmcVrmAnimationSchema {
                         },
                     ),
                     LeftToes: Some(
-                        HumanBone {
+                        VrmcVrmAnimationHumanBone {
                             node: Some(
                                 46,
                             ),
@@ -136,7 +136,7 @@ VrmcVrmAnimationSchema {
                         },
                     ),
                     LeftMiddleProximal: Some(
-                        HumanBone {
+                        VrmcVrmAnimationHumanBone {
                             node: Some(
                                 15,
                             ),
@@ -145,7 +145,7 @@ VrmcVrmAnimationSchema {
                         },
                     ),
                     RightRingIntermediate: Some(
-                        HumanBone {
+                        VrmcVrmAnimationHumanBone {
                             node: Some(
                                 38,
                             ),
@@ -154,7 +154,7 @@ VrmcVrmAnimationSchema {
                         },
                     ),
                     RightLittleIntermediate: Some(
-                        HumanBone {
+                        VrmcVrmAnimationHumanBone {
                             node: Some(
                                 41,
                             ),
@@ -163,7 +163,7 @@ VrmcVrmAnimationSchema {
                         },
                     ),
                     LeftIndexProximal: Some(
-                        HumanBone {
+                        VrmcVrmAnimationHumanBone {
                             node: Some(
                                 12,
                             ),
@@ -172,7 +172,7 @@ VrmcVrmAnimationSchema {
                         },
                     ),
                     Head: Some(
-                        HumanBone {
+                        VrmcVrmAnimationHumanBone {
                             node: Some(
                                 4,
                             ),
@@ -181,7 +181,7 @@ VrmcVrmAnimationSchema {
                         },
                     ),
                     Neck: Some(
-                        HumanBone {
+                        VrmcVrmAnimationHumanBone {
                             node: Some(
                                 3,
                             ),
@@ -190,7 +190,7 @@ VrmcVrmAnimationSchema {
                         },
                     ),
                     LeftRingProximal: Some(
-                        HumanBone {
+                        VrmcVrmAnimationHumanBone {
                             node: Some(
                                 18,
                             ),
@@ -199,7 +199,7 @@ VrmcVrmAnimationSchema {
                         },
                     ),
                     RightThumbDistal: Some(
-                        HumanBone {
+                        VrmcVrmAnimationHumanBone {
                             node: Some(
                                 30,
                             ),
@@ -208,7 +208,7 @@ VrmcVrmAnimationSchema {
                         },
                     ),
                     RightLowerLeg: Some(
-                        HumanBone {
+                        VrmcVrmAnimationHumanBone {
                             node: Some(
                                 48,
                             ),
@@ -217,7 +217,7 @@ VrmcVrmAnimationSchema {
                         },
                     ),
                     LeftLittleProximal: Some(
-                        HumanBone {
+                        VrmcVrmAnimationHumanBone {
                             node: Some(
                                 21,
                             ),
@@ -226,7 +226,7 @@ VrmcVrmAnimationSchema {
                         },
                     ),
                     RightHand: Some(
-                        HumanBone {
+                        VrmcVrmAnimationHumanBone {
                             node: Some(
                                 27,
                             ),
@@ -235,7 +235,7 @@ VrmcVrmAnimationSchema {
                         },
                     ),
                     LeftThumbMetacarpal: Some(
-                        HumanBone {
+                        VrmcVrmAnimationHumanBone {
                             node: Some(
                                 9,
                             ),
@@ -244,7 +244,7 @@ VrmcVrmAnimationSchema {
                         },
                     ),
                     RightToes: Some(
-                        HumanBone {
+                        VrmcVrmAnimationHumanBone {
                             node: Some(
                                 50,
                             ),
@@ -253,7 +253,7 @@ VrmcVrmAnimationSchema {
                         },
                     ),
                     RightMiddleProximal: Some(
-                        HumanBone {
+                        VrmcVrmAnimationHumanBone {
                             node: Some(
                                 34,
                             ),
@@ -262,7 +262,7 @@ VrmcVrmAnimationSchema {
                         },
                     ),
                     LeftMiddleDistal: Some(
-                        HumanBone {
+                        VrmcVrmAnimationHumanBone {
                             node: Some(
                                 17,
                             ),
@@ -271,7 +271,7 @@ VrmcVrmAnimationSchema {
                         },
                     ),
                     LeftIndexDistal: Some(
-                        HumanBone {
+                        VrmcVrmAnimationHumanBone {
                             node: Some(
                                 14,
                             ),
@@ -280,7 +280,7 @@ VrmcVrmAnimationSchema {
                         },
                     ),
                     RightIndexProximal: Some(
-                        HumanBone {
+                        VrmcVrmAnimationHumanBone {
                             node: Some(
                                 31,
                             ),
@@ -289,7 +289,7 @@ VrmcVrmAnimationSchema {
                         },
                     ),
                     LeftUpperArm: Some(
-                        HumanBone {
+                        VrmcVrmAnimationHumanBone {
                             node: Some(
                                 6,
                             ),
@@ -298,7 +298,7 @@ VrmcVrmAnimationSchema {
                         },
                     ),
                     Spine: Some(
-                        HumanBone {
+                        VrmcVrmAnimationHumanBone {
                             node: Some(
                                 1,
                             ),
@@ -307,7 +307,7 @@ VrmcVrmAnimationSchema {
                         },
                     ),
                     RightRingProximal: Some(
-                        HumanBone {
+                        VrmcVrmAnimationHumanBone {
                             node: Some(
                                 37,
                             ),
@@ -316,7 +316,7 @@ VrmcVrmAnimationSchema {
                         },
                     ),
                     LeftRingDistal: Some(
-                        HumanBone {
+                        VrmcVrmAnimationHumanBone {
                             node: Some(
                                 20,
                             ),
@@ -325,7 +325,7 @@ VrmcVrmAnimationSchema {
                         },
                     ),
                     LeftLittleDistal: Some(
-                        HumanBone {
+                        VrmcVrmAnimationHumanBone {
                             node: Some(
                                 23,
                             ),
@@ -334,7 +334,7 @@ VrmcVrmAnimationSchema {
                         },
                     ),
                     RightLittleProximal: Some(
-                        HumanBone {
+                        VrmcVrmAnimationHumanBone {
                             node: Some(
                                 40,
                             ),
@@ -343,7 +343,7 @@ VrmcVrmAnimationSchema {
                         },
                     ),
                     Hips: Some(
-                        HumanBone {
+                        VrmcVrmAnimationHumanBone {
                             node: Some(
                                 0,
                             ),
@@ -352,7 +352,7 @@ VrmcVrmAnimationSchema {
                         },
                     ),
                     RightThumbMetacarpal: Some(
-                        HumanBone {
+                        VrmcVrmAnimationHumanBone {
                             node: Some(
                                 28,
                             ),
@@ -361,7 +361,7 @@ VrmcVrmAnimationSchema {
                         },
                     ),
                     LeftShoulder: Some(
-                        HumanBone {
+                        VrmcVrmAnimationHumanBone {
                             node: Some(
                                 5,
                             ),
@@ -370,7 +370,7 @@ VrmcVrmAnimationSchema {
                         },
                     ),
                     LeftLowerArm: Some(
-                        HumanBone {
+                        VrmcVrmAnimationHumanBone {
                             node: Some(
                                 7,
                             ),
@@ -379,7 +379,7 @@ VrmcVrmAnimationSchema {
                         },
                     ),
                     RightMiddleDistal: Some(
-                        HumanBone {
+                        VrmcVrmAnimationHumanBone {
                             node: Some(
                                 36,
                             ),
@@ -388,7 +388,7 @@ VrmcVrmAnimationSchema {
                         },
                     ),
                     RightIndexDistal: Some(
-                        HumanBone {
+                        VrmcVrmAnimationHumanBone {
                             node: Some(
                                 33,
                             ),
@@ -397,7 +397,7 @@ VrmcVrmAnimationSchema {
                         },
                     ),
                     LeftFoot: Some(
-                        HumanBone {
+                        VrmcVrmAnimationHumanBone {
                             node: Some(
                                 45,
                             ),
@@ -406,7 +406,7 @@ VrmcVrmAnimationSchema {
                         },
                     ),
                     RightUpperArm: Some(
-                        HumanBone {
+                        VrmcVrmAnimationHumanBone {
                             node: Some(
                                 25,
                             ),
@@ -415,7 +415,7 @@ VrmcVrmAnimationSchema {
                         },
                     ),
                     LeftThumbProximal: Some(
-                        HumanBone {
+                        VrmcVrmAnimationHumanBone {
                             node: Some(
                                 10,
                             ),
@@ -424,7 +424,7 @@ VrmcVrmAnimationSchema {
                         },
                     ),
                     LeftMiddleIntermediate: Some(
-                        HumanBone {
+                        VrmcVrmAnimationHumanBone {
                             node: Some(
                                 16,
                             ),
@@ -433,7 +433,7 @@ VrmcVrmAnimationSchema {
                         },
                     ),
                     RightRingDistal: Some(
-                        HumanBone {
+                        VrmcVrmAnimationHumanBone {
                             node: Some(
                                 39,
                             ),
@@ -442,7 +442,7 @@ VrmcVrmAnimationSchema {
                         },
                     ),
                     RightLittleDistal: Some(
-                        HumanBone {
+                        VrmcVrmAnimationHumanBone {
                             node: Some(
                                 42,
                             ),
@@ -451,7 +451,7 @@ VrmcVrmAnimationSchema {
                         },
                     ),
                     LeftIndexIntermediate: Some(
-                        HumanBone {
+                        VrmcVrmAnimationHumanBone {
                             node: Some(
                                 13,
                             ),
@@ -460,7 +460,7 @@ VrmcVrmAnimationSchema {
                         },
                     ),
                     LeftUpperLeg: Some(
-                        HumanBone {
+                        VrmcVrmAnimationHumanBone {
                             node: Some(
                                 43,
                             ),
@@ -475,11 +475,11 @@ VrmcVrmAnimationSchema {
         },
     ),
     expressions: Some(
-        Expressions {
+        VrmcVrmAnimationExpressions {
             preset: Some(
-                Preset(
+                VrmcVrmAnimationExpressionPreset(
                     {
-                        Happy: Expression {
+                        Happy: VrmcVrmAnimationExpression {
                             node: Some(
                                 51,
                             ),
@@ -495,7 +495,7 @@ VrmcVrmAnimationSchema {
         },
     ),
     look_at: Some(
-        LookAt {
+        VrmcVrmAnimationLookAt {
             node: Some(
                 52,
             ),
