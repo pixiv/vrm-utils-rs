@@ -1,0 +1,509 @@
+---
+source: crates/vrm-spec/tests/test.rs
+assertion_line: 44
+expression: vrmc_vrm_animation
+---
+VRMCVrmAnimationSchema {
+    spec_version: "1.0",
+    humanoid: Some(
+        VRMCVrmAnimationHumanoid {
+            human_bones: VRMCVrmAnimationHumanBones(
+                {
+                    Chest: Some(
+                        VRMCVrmAnimationHumanBone {
+                            node: Some(
+                                2,
+                            ),
+                            extensions: None,
+                            extras: None,
+                        },
+                    ),
+                    LeftRingIntermediate: Some(
+                        VRMCVrmAnimationHumanBone {
+                            node: Some(
+                                19,
+                            ),
+                            extensions: None,
+                            extras: None,
+                        },
+                    ),
+                    RightShoulder: Some(
+                        VRMCVrmAnimationHumanBone {
+                            node: Some(
+                                24,
+                            ),
+                            extensions: None,
+                            extras: None,
+                        },
+                    ),
+                    RightLowerArm: Some(
+                        VRMCVrmAnimationHumanBone {
+                            node: Some(
+                                26,
+                            ),
+                            extensions: None,
+                            extras: None,
+                        },
+                    ),
+                    LeftLittleIntermediate: Some(
+                        VRMCVrmAnimationHumanBone {
+                            node: Some(
+                                22,
+                            ),
+                            extensions: None,
+                            extras: None,
+                        },
+                    ),
+                    RightFoot: Some(
+                        VRMCVrmAnimationHumanBone {
+                            node: Some(
+                                49,
+                            ),
+                            extensions: None,
+                            extras: None,
+                        },
+                    ),
+                    RightThumbProximal: Some(
+                        VRMCVrmAnimationHumanBone {
+                            node: Some(
+                                29,
+                            ),
+                            extensions: None,
+                            extras: None,
+                        },
+                    ),
+                    LeftThumbDistal: Some(
+                        VRMCVrmAnimationHumanBone {
+                            node: Some(
+                                11,
+                            ),
+                            extensions: None,
+                            extras: None,
+                        },
+                    ),
+                    RightMiddleIntermediate: Some(
+                        VRMCVrmAnimationHumanBone {
+                            node: Some(
+                                35,
+                            ),
+                            extensions: None,
+                            extras: None,
+                        },
+                    ),
+                    LeftLowerLeg: Some(
+                        VRMCVrmAnimationHumanBone {
+                            node: Some(
+                                44,
+                            ),
+                            extensions: None,
+                            extras: None,
+                        },
+                    ),
+                    RightIndexIntermediate: Some(
+                        VRMCVrmAnimationHumanBone {
+                            node: Some(
+                                32,
+                            ),
+                            extensions: None,
+                            extras: None,
+                        },
+                    ),
+                    LeftHand: Some(
+                        VRMCVrmAnimationHumanBone {
+                            node: Some(
+                                8,
+                            ),
+                            extensions: None,
+                            extras: None,
+                        },
+                    ),
+                    RightUpperLeg: Some(
+                        VRMCVrmAnimationHumanBone {
+                            node: Some(
+                                47,
+                            ),
+                            extensions: None,
+                            extras: None,
+                        },
+                    ),
+                    LeftToes: Some(
+                        VRMCVrmAnimationHumanBone {
+                            node: Some(
+                                46,
+                            ),
+                            extensions: None,
+                            extras: None,
+                        },
+                    ),
+                    LeftMiddleProximal: Some(
+                        VRMCVrmAnimationHumanBone {
+                            node: Some(
+                                15,
+                            ),
+                            extensions: None,
+                            extras: None,
+                        },
+                    ),
+                    RightRingIntermediate: Some(
+                        VRMCVrmAnimationHumanBone {
+                            node: Some(
+                                38,
+                            ),
+                            extensions: None,
+                            extras: None,
+                        },
+                    ),
+                    RightLittleIntermediate: Some(
+                        VRMCVrmAnimationHumanBone {
+                            node: Some(
+                                41,
+                            ),
+                            extensions: None,
+                            extras: None,
+                        },
+                    ),
+                    LeftIndexProximal: Some(
+                        VRMCVrmAnimationHumanBone {
+                            node: Some(
+                                12,
+                            ),
+                            extensions: None,
+                            extras: None,
+                        },
+                    ),
+                    Head: Some(
+                        VRMCVrmAnimationHumanBone {
+                            node: Some(
+                                4,
+                            ),
+                            extensions: None,
+                            extras: None,
+                        },
+                    ),
+                    Neck: Some(
+                        VRMCVrmAnimationHumanBone {
+                            node: Some(
+                                3,
+                            ),
+                            extensions: None,
+                            extras: None,
+                        },
+                    ),
+                    LeftRingProximal: Some(
+                        VRMCVrmAnimationHumanBone {
+                            node: Some(
+                                18,
+                            ),
+                            extensions: None,
+                            extras: None,
+                        },
+                    ),
+                    RightThumbDistal: Some(
+                        VRMCVrmAnimationHumanBone {
+                            node: Some(
+                                30,
+                            ),
+                            extensions: None,
+                            extras: None,
+                        },
+                    ),
+                    RightLowerLeg: Some(
+                        VRMCVrmAnimationHumanBone {
+                            node: Some(
+                                48,
+                            ),
+                            extensions: None,
+                            extras: None,
+                        },
+                    ),
+                    LeftLittleProximal: Some(
+                        VRMCVrmAnimationHumanBone {
+                            node: Some(
+                                21,
+                            ),
+                            extensions: None,
+                            extras: None,
+                        },
+                    ),
+                    RightHand: Some(
+                        VRMCVrmAnimationHumanBone {
+                            node: Some(
+                                27,
+                            ),
+                            extensions: None,
+                            extras: None,
+                        },
+                    ),
+                    LeftThumbMetacarpal: Some(
+                        VRMCVrmAnimationHumanBone {
+                            node: Some(
+                                9,
+                            ),
+                            extensions: None,
+                            extras: None,
+                        },
+                    ),
+                    RightToes: Some(
+                        VRMCVrmAnimationHumanBone {
+                            node: Some(
+                                50,
+                            ),
+                            extensions: None,
+                            extras: None,
+                        },
+                    ),
+                    RightMiddleProximal: Some(
+                        VRMCVrmAnimationHumanBone {
+                            node: Some(
+                                34,
+                            ),
+                            extensions: None,
+                            extras: None,
+                        },
+                    ),
+                    LeftMiddleDistal: Some(
+                        VRMCVrmAnimationHumanBone {
+                            node: Some(
+                                17,
+                            ),
+                            extensions: None,
+                            extras: None,
+                        },
+                    ),
+                    LeftIndexDistal: Some(
+                        VRMCVrmAnimationHumanBone {
+                            node: Some(
+                                14,
+                            ),
+                            extensions: None,
+                            extras: None,
+                        },
+                    ),
+                    RightIndexProximal: Some(
+                        VRMCVrmAnimationHumanBone {
+                            node: Some(
+                                31,
+                            ),
+                            extensions: None,
+                            extras: None,
+                        },
+                    ),
+                    LeftUpperArm: Some(
+                        VRMCVrmAnimationHumanBone {
+                            node: Some(
+                                6,
+                            ),
+                            extensions: None,
+                            extras: None,
+                        },
+                    ),
+                    Spine: Some(
+                        VRMCVrmAnimationHumanBone {
+                            node: Some(
+                                1,
+                            ),
+                            extensions: None,
+                            extras: None,
+                        },
+                    ),
+                    RightRingProximal: Some(
+                        VRMCVrmAnimationHumanBone {
+                            node: Some(
+                                37,
+                            ),
+                            extensions: None,
+                            extras: None,
+                        },
+                    ),
+                    LeftRingDistal: Some(
+                        VRMCVrmAnimationHumanBone {
+                            node: Some(
+                                20,
+                            ),
+                            extensions: None,
+                            extras: None,
+                        },
+                    ),
+                    LeftLittleDistal: Some(
+                        VRMCVrmAnimationHumanBone {
+                            node: Some(
+                                23,
+                            ),
+                            extensions: None,
+                            extras: None,
+                        },
+                    ),
+                    RightLittleProximal: Some(
+                        VRMCVrmAnimationHumanBone {
+                            node: Some(
+                                40,
+                            ),
+                            extensions: None,
+                            extras: None,
+                        },
+                    ),
+                    Hips: Some(
+                        VRMCVrmAnimationHumanBone {
+                            node: Some(
+                                0,
+                            ),
+                            extensions: None,
+                            extras: None,
+                        },
+                    ),
+                    RightThumbMetacarpal: Some(
+                        VRMCVrmAnimationHumanBone {
+                            node: Some(
+                                28,
+                            ),
+                            extensions: None,
+                            extras: None,
+                        },
+                    ),
+                    LeftShoulder: Some(
+                        VRMCVrmAnimationHumanBone {
+                            node: Some(
+                                5,
+                            ),
+                            extensions: None,
+                            extras: None,
+                        },
+                    ),
+                    LeftLowerArm: Some(
+                        VRMCVrmAnimationHumanBone {
+                            node: Some(
+                                7,
+                            ),
+                            extensions: None,
+                            extras: None,
+                        },
+                    ),
+                    RightMiddleDistal: Some(
+                        VRMCVrmAnimationHumanBone {
+                            node: Some(
+                                36,
+                            ),
+                            extensions: None,
+                            extras: None,
+                        },
+                    ),
+                    RightIndexDistal: Some(
+                        VRMCVrmAnimationHumanBone {
+                            node: Some(
+                                33,
+                            ),
+                            extensions: None,
+                            extras: None,
+                        },
+                    ),
+                    LeftFoot: Some(
+                        VRMCVrmAnimationHumanBone {
+                            node: Some(
+                                45,
+                            ),
+                            extensions: None,
+                            extras: None,
+                        },
+                    ),
+                    RightUpperArm: Some(
+                        VRMCVrmAnimationHumanBone {
+                            node: Some(
+                                25,
+                            ),
+                            extensions: None,
+                            extras: None,
+                        },
+                    ),
+                    LeftThumbProximal: Some(
+                        VRMCVrmAnimationHumanBone {
+                            node: Some(
+                                10,
+                            ),
+                            extensions: None,
+                            extras: None,
+                        },
+                    ),
+                    LeftMiddleIntermediate: Some(
+                        VRMCVrmAnimationHumanBone {
+                            node: Some(
+                                16,
+                            ),
+                            extensions: None,
+                            extras: None,
+                        },
+                    ),
+                    RightRingDistal: Some(
+                        VRMCVrmAnimationHumanBone {
+                            node: Some(
+                                39,
+                            ),
+                            extensions: None,
+                            extras: None,
+                        },
+                    ),
+                    RightLittleDistal: Some(
+                        VRMCVrmAnimationHumanBone {
+                            node: Some(
+                                42,
+                            ),
+                            extensions: None,
+                            extras: None,
+                        },
+                    ),
+                    LeftIndexIntermediate: Some(
+                        VRMCVrmAnimationHumanBone {
+                            node: Some(
+                                13,
+                            ),
+                            extensions: None,
+                            extras: None,
+                        },
+                    ),
+                    LeftUpperLeg: Some(
+                        VRMCVrmAnimationHumanBone {
+                            node: Some(
+                                43,
+                            ),
+                            extensions: None,
+                            extras: None,
+                        },
+                    ),
+                },
+            ),
+            extensions: None,
+            extras: None,
+        },
+    ),
+    expressions: Some(
+        VRMCVrmAnimationExpressions {
+            preset: Some(
+                VRMCVrmAnimationExpressionPreset(
+                    {
+                        Happy: VRMCVrmAnimationExpression {
+                            node: Some(
+                                51,
+                            ),
+                            extensions: None,
+                            extras: None,
+                        },
+                    },
+                ),
+            ),
+            custom: None,
+            extensions: None,
+            extras: None,
+        },
+    ),
+    look_at: Some(
+        VRMCVrmAnimationLookAt {
+            node: Some(
+                52,
+            ),
+            offset_from_head_bone: None,
+            extensions: None,
+            extras: None,
+        },
+    ),
+    extensions: None,
+    extras: None,
+}

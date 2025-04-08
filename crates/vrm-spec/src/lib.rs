@@ -22,3 +22,4 @@ pub mod vrm_0_0;
 pub mod vrmc_materials_mtoon_1_0;
 pub mod vrmc_spring_bone_1_0;
 pub mod vrmc_vrm_1_0;
+pub mod vrmc_vrm_animation_1_0;
