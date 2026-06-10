@@ -295,6 +295,7 @@ pub type Min = OptionalVector3;
 #[serde(rename_all = "camelCase")]
 pub struct VRMMaterial {
     #[serde(
+        default,
         skip_serializing_if = "Option::is_none",
         deserialize_with = "deserialize_option_map_and_skip_nullable::<_, String, f64>"
     )]
