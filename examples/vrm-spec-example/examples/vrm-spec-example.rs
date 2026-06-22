@@ -1,4 +1,4 @@
-use vrm_spec::vrmc_vrm_1_0::{Meta, VRMCVrmSchema, VRMC_VRM};
+use vrm_spec::vrmc_vrm_1_0::{Meta, VRMC_VRM, VRMCVrmSchema};
 
 fn main() {
     let file = include_bytes!("../../../fixtures/VRM1_Constraint_Twist_Sample.vrm");
